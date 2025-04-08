@@ -1,0 +1,6 @@
+.menu-lateral {
+    display: inline-block;
+    justify-content: end;
+    width: 150px;
+    background-color: var(--cinza);
+}
