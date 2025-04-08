@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap');
+
+
+:root {
+    --preto : #000000;
+    --laranja : #FF7409;
+    --cinza : #5c5c5c;
+    --fonte-Karla : 'Karla', sans-serif;
+    --fonte-size-Normal : 1rem;
+}
+
+.cabecalho {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr) 0.5fr;
+    align-items: center;
+    justify-items: center;
+    background-color: var(--preto);
+    width: 100vw;
+    height: 86px;
+}
+
+.busca {
+    display: flex;
+
+}
+
+.botoes {
+    gap: 3rem;
+    display: flex;
+}
+
+.botoes-item {
+    font-family: var(--fonte-Karla);
+    font-size: var(--fonte-size-Normal);
+    color: var(--laranja);
+}
+
+
+.campo-busca {
+    display: flex;
+    align-items: center;
+    background-color: var(--cinza);
+    border-radius: 25px;
+    padding: 0 15px;
+    height: 40px;
+    width: 400px;
+}
+
+.campo-busca i {
+    color: white;
+    margin-right: 10px;
+    font-size: 16px;
+}
+
+.campo-busca input {
+    border: none;
+    outline: none;
+    background: transparent;
+    color: white;
+    font-size: 1rem;
+    font-family: var(--fonte-Karla);
+    width: 100%;
+}
+
+.campo-busca input::placeholder {
+    color: white;
+    opacity: 1;
+}

@@ -1,0 +1,57 @@
+:root {
+    --preto : #000000;
+    --laranja : #FF7409;
+}
+
+.burger {
+    position: relative;
+    width: 30px;
+    height: 20px;
+    background: transparent;
+    cursor: pointer;
+    display: block;
+}
+
+.burger input {
+    display: none;
+}
+
+.burger span {
+    display: block;
+    position: absolute;
+    height: 3px;
+    width: 100%;
+    background: var(--laranja);
+    border-radius: 9px;
+    left: 0;
+    transition: 0.25s ease-in-out;
+}
+
+.burger span:nth-of-type(1) {
+    top: 0;
+    transform-origin: center;
+}
+
+.burger span:nth-of-type(2) {
+    top: 50%;
+    transform: translateY(-50%);
+    transform-origin: center;
+}
+
+.burger span:nth-of-type(3) {
+    bottom: 0;
+    transform-origin: center;
+}
+
+/* Animação ao marcar o checkbox */
+.burger input:checked ~ span:nth-of-type(1) {
+    transform: translateY(8px) rotate(45deg);
+}
+
+.burger input:checked ~ span:nth-of-type(2) {
+    opacity: 0;
+}
+
+.burger input:checked ~ span:nth-of-type(3) {
+    transform: translateY(-8px) rotate(-45deg);
+}
