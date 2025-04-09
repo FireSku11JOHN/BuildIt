@@ -10,7 +10,8 @@
     <link rel="stylesheet" href="/css/cabecalho.css">
     <link rel="stylesheet" href="/css/reset.css">
     <link rel="stylesheet" href="/css/menu-lateral.css">
-    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="/css/menu-estilo.css">
+    <link rel="shortcut icon" href="/faviconnova.ico" type="image/x-icon">
 </head>
 <body>
     <header class="cabecalho">
@@ -21,8 +22,13 @@
         <nav id="menu">
             <ul class="botoes">
                 <li><a href="#" class="botoes-item">HOME</a></li>
-                <li><a href="#" class="botoes-item">SOBRE NÓS</a></li>
-                <li><a href="#" class="botoes-item">ESTILOS</a></li>
+                <li>
+                    <a href="#" class="botoes-item">SOBRE NÓS</a>
+                </li>
+                <li>
+                    <button class="botoes-item" onclick="mostrarMenuEstilo()">ESTILOS</button>
+                    <!-- <a href="#" class="botoes-item btnEstilo">ESTILOS</a> -->
+                </li>
             </ul>
         </nav>
 
@@ -39,7 +45,8 @@
         </label>
 
     </header>
-    <nav id="menu-lateral">
+
+    <nav id="menu-estilo">
         <ul class="menu-lateral-lista">
             <li class="menu-lateral-lista_item">
                 <a href="#" class="menu-lateral">Medieval</a>
@@ -74,6 +81,21 @@
             </li>
         </ul>
     </nav>
+
+    <nav id="menu-lateral">
+        <ul class="menu-lateral-lista">
+           
+            <li class="menu-lateral-lista_item">
+                <a href="#" class="menu-lateral">Steampunk</a>
+                <a href="#" class="menu-lateral">Clássico</a>
+                <a href="#" class="menu-lateral">Chinês</a>
+                <a href="#" class="menu-lateral">Casa na Árvore</a>
+                <a href="#" class="menu-lateral">Subaquático</a>
+            </li>
+        </ul>
+    </nav>
+
+
 
     <main>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus ipsum illum, incidunt aperiam doloremque sed suscipit ipsa officia modi eaque exercitationem quod optio ut ex voluptas sint eligendi dolores est?</p>
@@ -126,6 +148,7 @@
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus ipsum illum, incidunt aperiam doloremque sed suscipit ipsa officia modi eaque exercitationem quod optio ut ex voluptas sint eligendi dolores est?</p>
     </main>
 
-    <script src="/script/burguer.js"></script>
+    <script src="/script/btnEstilo.js" defer></script>
+    <script src="/script/burguer.js" defer></script>
 </body>
 </html>
