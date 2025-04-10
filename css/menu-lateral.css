@@ -8,7 +8,7 @@
     right: 0;
     width: 100%;
     max-width: 650px;
-    z-index: 999;
+    z-index: 5;
     background-color: white;
     box-shadow: -3px 3px 6px rgba(0, 0, 0, 0.432);
 }
@@ -21,6 +21,7 @@
     animation: slideUp 0.4s ease forwards;
     pointer-events: none;
 }
+
 
 .menu-lateral-lista {
     display: grid;
@@ -37,7 +38,6 @@
 
 .menu-lateral-lista_item > a {
     height: auto;
-    /* width: 75%; */
     margin-bottom: 1rem;
     border-bottom: 1px solid var(--preto);
     color: var(--preto);

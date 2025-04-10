@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Build IT - Construa seu mundo!</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+    <link rel="stylesheet" href="/css/style.css">
+    <!-- <link rel="stylesheet" href="/css/cabecalho.css"> -->
+    <link rel="stylesheet" href="/css/cabecalhoMB.css">
+    <link rel="stylesheet" href="/css/reset.css">
+    <link rel="stylesheet" href="/css/menu-lateral.css">
+    <link rel="stylesheet" href="/css/menu-estilo.css">
+    <link rel="stylesheet" href="/css/input-busca.css">
+    <link rel="shortcut icon" href="/faviconnova.ico" type="image/x-icon">
+</head>
+    <body>
+        <header class="cabecalho">
+            <a href="#" class="container_logo">
+                <img class="logo"
+                src="/src/logo_buildit-mobile.svg" 
+                sizes="( max-width: 768px ) 100vw, 1280px"
+                srcset="/src/logo_buildit-desktop.svg 1280w"
+                alt="Logo Buildit">
+            </a>
+
+            <nav id="menu">
+                <ul class="botoes">
+                    <li>
+                        <a href="#" class="botoes-item">HOME</a></li>
+                    <li>
+                        <a href="#" class="botoes-item">SOBRE NÓS</a>
+                    </li>
+                    <li>
+                        <button class="botoes-item btn-estilo">ESTILOS</button>
+                    </li>
+                </ul>
+            </nav>
+
+            <div class="campo-busca">
+                <i class="fas fa-search"></i>
+                <input type="text" placeholder="Buscar por estilos">
+            </div>
+
+            <label class="burger" for="menuToggle">
+                <input type="checkbox" id="menuToggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </label>
+
+            <nav id="menu-lateral">
+                <ul class="menu-lateral-lista">
+                    <li class="menu-lateral-lista_item">
+                        <div class="campo-busca-menu-lateral">
+                            <i class="fas fa-search"></i>
+                            <input type="text" placeholder="Buscar por estilos">
+                        </div>
+                        <a href="#" class="menu-lateral">Steampunk</a>
+                        <a href="#" class="menu-lateral">Clássico</a>
+                        <a href="#" class="menu-lateral">Chinês</a>
+                        <a href="#" class="menu-lateral">Casa na Árvore</a>
+                        <a href="#" class="menu-lateral">Subaquático</a>
+                    </li>
+                </ul>
+            </nav>
+        
+
+        </header>
+        <script src="/script/btnEstilo.js" defer></script>
+        <script src="/script/burguer.js" defer></script>
+    </body>
+</html>
