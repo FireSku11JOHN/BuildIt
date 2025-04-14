@@ -1,0 +1,69 @@
+.burger {
+    position: relative;
+    width: 25px;
+    height: 17px;
+    background: transparent;
+    cursor: pointer;
+    display: block;
+}
+
+.burger input {
+    display: none;
+}
+
+.burger span {
+    display: block;
+    position: absolute;
+    height: 2px;
+    width: 100%;
+    background: var(--laranja);
+    border-radius: 9px;
+    left: 0;
+    transition: 0.25s ease-in-out;
+}
+
+.burger span:nth-of-type(1) {
+    top: 0;
+    transform-origin: center;
+    /* background: blue; */
+}
+
+.burger span:nth-of-type(2) {
+    top: 50%;
+    transform: translateY(-50%);
+    transform-origin: center;
+}
+
+.burger span:nth-of-type(3) {
+    bottom: 0;
+    transform-origin: center;
+}
+
+/* Animação ao marcar o checkbox */
+.burger input:checked ~ span:nth-of-type(1) {
+    transform: translateY(7px) rotate(45deg);
+}
+
+.burger input:checked ~ span:nth-of-type(2) {
+    opacity: 0;
+}
+
+.burger input:checked ~ span:nth-of-type(3) {
+    transform: translateY(-8px) rotate(-45deg);
+}
+
+@media  (min-width: 768px) {
+    .burger {
+        width: 30px;
+        height: 20px;
+    }
+
+    .burger span {
+        height: 3px;
+    }
+
+    .burger input:checked ~ span:nth-of-type(1) {
+        transform: translateY(8px) rotate(45deg);
+    }
+       
+}

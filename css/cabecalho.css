@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Karla:ital,wght@0,200..800;1,200..800&display=swap');
+
+
+:root {
+    --preto : #000000;
+    --laranja : #FF7409;
+    --cinza : #5c5c5c;
+    --cinza-hover : #282828;
+    --fonte-Karla : 'Karla', sans-serif;
+    --fonte-Kanit : 'Kanit', sans-serif;
+    --fonte-size-Normal : 1rem;
+}
+
+.cabecalho {
+    display: flex;
+    /* grid-template-columns: repeat(3, 1fr) 0.5fr; */
+    align-items: center;
+    justify-items: center;
+    background-color: var(--preto);
+    width: 100vw;
+    height: 86px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.432);
+    position: fixed;
+    z-index: 10;
+}
+
+.busca {
+    display: flex;
+}
+
+.botoes {
+    gap: 2rem;
+    display: flex;
+    align-items: center;
+}
+
+.botoes-item {
+    padding: 10px;
+    border-radius: 25px;
+    font-family: var(--fonte-Karla);
+    font-size: var(--fonte-size-Normal);
+    color: var(--laranja);
+}
+
+.botoes-item:hover {
+    background-color: var(--cinza-hover);
+    transition: 0.3s;
+}
+
+
+.campo-busca {
+    display: flex;
+    align-items: center;
+    background-color: var(--cinza);
+    border-radius: 25px;
+    padding: 0 15px;
+    height: 40px;
+    width: 400px;
+}
+
+.campo-busca i {
+    color: white;
+    margin-right: 10px;
+    font-size: 16px;
+}
+
+.campo-busca input {
+    border: none;
+    outline: none;
+    background: transparent;
+    color: white;
+    font-size: 1rem;
+    font-family: var(--fonte-Karla);
+    width: 100%;
+}
+
+.campo-busca input::placeholder {
+    color: white;
+    opacity: 1;
+}
+
+@media (min-width: 768px) {
+    .btn-estilo {
+        display: block;
+    }
+}
