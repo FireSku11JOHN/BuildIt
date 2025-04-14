@@ -5,6 +5,7 @@
     --preto : #000000;
     --laranja : #FF7409;
     --cinza : #5c5c5c;
+    --cinza-claro : #7b7a7a;
     --cinza-hover : #282828;
     --fonte-Karla : 'Karla', sans-serif;
     --fonte-Kanit : 'Kanit', sans-serif;
@@ -15,6 +16,7 @@
 .cabecalho {
     /* display: grid;
     grid-template-columns: repeat(3, 1fr); */
+    overflow: hidden;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -24,7 +26,7 @@
     height: 66px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.432);
     position: fixed;
-    z-index: 10;
+    z-index: 5;
 }
 
 .logo {
@@ -92,19 +94,25 @@
 
 
 @media (min-width: 768px) {
+    .botoes-item{
+        font-size: var(--fonte-size-Normal);
+    }
+
     .btn-estilo {
         display: block;
     }
 
-    .burger {
-        width: 30px;
-        height: 20px;
+}
+
+@media (min-width: 1024px) {
+    .cabecalho {
+        height: 86px;
     }
 
-    .burger span {
-        height: 3px;
+    .campo-busca {
+        display: flex;
     }
-
+    
 }
 
 

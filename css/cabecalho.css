@@ -12,8 +12,8 @@
 }
 
 .cabecalho {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr) 0.5fr;
+    display: flex;
+    /* grid-template-columns: repeat(3, 1fr) 0.5fr; */
     align-items: center;
     justify-items: center;
     background-color: var(--preto);
@@ -26,7 +26,6 @@
 
 .busca {
     display: flex;
-
 }
 
 .botoes {
@@ -78,4 +77,10 @@
 .campo-busca input::placeholder {
     color: white;
     opacity: 1;
+}
+
+@media (min-width: 768px) {
+    .btn-estilo {
+        display: block;
+    }
 }
