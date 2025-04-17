@@ -1,0 +1,43 @@
+.container-sobre-nos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    background-image: url(../src/sobre-nos-fundo-MB.png);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.campo-texto-sobre-nos {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 76%;
+    max-width: 700px;
+    gap: 20px;
+    /* top: 66px; */
+    translate: 0 66px;
+    margin-top: 20px;
+    height: 100%;
+}
+
+.titulo-sobre-nos{
+    font-family: var(--fonte-Kanit);
+    font-size: var(--fonte-size-Grande);
+    font-weight: 500;
+    width: 100%;
+    padding-bottom: 5px;
+    border-bottom: 1px solid black;
+}
+
+.paragrafo {
+    font-family: var(--fonte-Kanit);
+    font-size: var(--fonte-size-Normal);
+    font-weight: 300;
+    text-align: justify;
+    line-height: 1.2rem;
+    letter-spacing: 0.04rem;
+}
