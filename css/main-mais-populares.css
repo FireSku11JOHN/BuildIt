@@ -18,7 +18,7 @@
     flex-direction: column;
     align-items: center;
     width: 85%;
-    max-width: 320px;
+    max-width: 700px;
     height: calc(100vh - 66px);
     background-color: white;
 }
@@ -36,7 +36,6 @@
 
 .carrosel-swiper {
     width: 100%;
-    padding: 0px 0;
     margin: 5px;
 }
 
@@ -57,12 +56,10 @@
     opacity: 1;
 }
 
-
 .carrosel-mais-populares-item_card {
     display: flex;
     flex-direction: column;
     width: 270px;
-    /* height: 290px; */
     border-radius: 12px;
     border: 1px solid #000;
     margin-bottom: 20px;
@@ -72,16 +69,14 @@
     width: 100%;
     height: 152px;
     border-radius: 12px 12px 0px 0px;
-    background: url(https://img.youtube.com/vi/_RbFspZq0Mg/hqdefault.jpg) no-repeat center center;
+    background: url(https://img.youtube.com/vi/0000000000/hqdefault.jpg) no-repeat center center;
     background-size: cover;
 }
 
 .campo-info {
     display: flex;
     flex-direction: column;
-    /* align-items:center; */
     justify-content: space-around;
-    /* background-color: bisque; */
     height: 140px;
 }
 
@@ -108,12 +103,7 @@
     justify-content: space-evenly;
     align-items: center;
     align-self: center;
-    /* margin: auto; */
-
-    /* background-color: aquamarine; */
 }
-
-
 
 .bnt-tutorial {
 font-family: var(--fonte-Kanit);
@@ -185,4 +175,90 @@ transform: translateY(4px);
 .bnt:hover {
     background-color: var(--cinza-claro);
     color: var(--laranja);
+}
+
+@media (min-width: 768px) {
+    .container{
+        width: 65%;
+    }
+
+    .carrosel-mais-populares-item_card {
+        width: 350px;
+        margin-bottom: 30px;
+    }
+
+    .img {
+        height: 190px;
+    }
+
+    .titulo-section {
+        margin: 30px 0px;
+    }
+
+    .campo-info {
+        height: 160px;
+    }
+
+    .descricao-card-mais-populares {
+        font-size: var(--fonte-size-Media);
+        margin: 0px 25px 0px 25px;
+    }
+
+    /* .titulo-card-mais-populares {
+        font-size: var(--fonte-size-Normal);
+        margin: 0px 0px 0px 25px;
+    } */
+}
+
+@media (min-width: 1014px) {
+    .container{
+        top: 92px;
+    }
+
+    .carrosel-mais-populares-item_card {
+        width: 500px;
+        margin-bottom: 40px;
+    }
+
+    .img {
+        height: 280px;
+    }
+
+    .titulo-section {
+        font-size: var(--fonte-size-Grande);
+        margin: 30px 0px;
+        padding-bottom: 5px;
+    }
+
+    .titulo-card-mais-populares{
+        font-size: var(--fonte-size-Grande);
+    }
+
+    .descricao-card-mais-populares {
+        font-size: var(--fonte-size-Normal);
+        margin: 0px 25px 0px 25px;
+    }
+
+    .opc-bnt{
+        width: 80%;
+        justify-content: space-evenly;
+    }
+    
+
+    .bnt-tutorial {
+        padding: 0.7rem 2.3rem;
+        font-size: var(--fonte-size-Normal);
+    }
+
+    .bnt {
+        height: 3rem;
+        width: 3rem;
+    }
+
+    .bnt-favoritar{
+        font-size: var(--fonte-size-Grande);
+    }
+    .bnt-compartilhar{
+        font-size: var(--fonte-size-Grande);
+    }
 }
