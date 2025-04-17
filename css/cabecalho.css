@@ -1,18 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Karla:ital,wght@0,200..800;1,200..800&display=swap');
-
-
-:root {
-    --preto : #000000;
-    --laranja : #FF7409;
-    --cinza : #5c5c5c;
-    --cinza-claro : #7b7a7a;
-    --cinza-hover : #282828;
-    --fonte-Karla : 'Karla', sans-serif;
-    --fonte-Kanit : 'Kanit', sans-serif;
-    --fonte-size-Pequena : 0.7rem;
-    --fonte-size-Normal : 1rem;
-}
-
 .cabecalho {
     /* display: grid;
     grid-template-columns: repeat(3, 1fr); */
