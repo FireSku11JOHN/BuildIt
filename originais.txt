@@ -1,0 +1,20 @@
+<div class="carrosel-mais-populares-item">
+                    <div class="carrosel-mais-populares-item_card">
+                        <!-- <img src="	https://img.youtube.com/vi/_RbFspZq0Mg/hqdefault.jpg" alt=""> -->
+                         <div class="img"></div>
+                        <h3 class="titulo-card-mais-populares">Casa Moderna</h3>
+                        <div class="opc-bnt">
+                            <button class="bnt-tutorial">TUTOTIAL</button>
+                            <button class="bnt-favoritar bnt">
+                                <!-- Desativo -->
+                                <i class="fa-regular fa-bookmark"></i>
+                                <!-- Ativo -->
+                                <!-- <i class="fa-solid fa-bookmark"></i> -->
+                            </button>
+                            <button class="bnt-compartilhar bnt">
+                                <i class="fa-solid fa-share-nodes"></i>
+                            </button>
+                        </div>
+                        <!-- <p>deescc</p> -->
+                    </div>
+                </div>

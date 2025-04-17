@@ -34,14 +34,35 @@
 
 /* CARD */
 
+.carrosel-swiper {
+    width: 100%;
+    padding: 0px 0;
+    margin: 5px;
+}
+
+.swiper-wrapper {
+    display: flex;
+}
+.swiper-slide {
+    display: flex;
+    justify-content: center;
+}
+.swiper-pagination-bullet {
+    background: #000;
+    opacity: 0.5;
+    transition: all 0.3s ease;
+}
+.swiper-pagination-bullet-active {
+    background: var(--laranja);
+    opacity: 1;
+}
+
+
 .carrosel-mais-populares-item_card {
-    /* position: relative;
-    top: 66px; */
     display: flex;
     flex-direction: column;
-    /* align-items: center; */
     width: 270px;
-    height: 290px;
+    /* height: 290px; */
     border-radius: 12px;
     border: 1px solid #000;
     margin-bottom: 20px;
@@ -52,15 +73,32 @@
     height: 152px;
     border-radius: 12px 12px 0px 0px;
     background: url(https://img.youtube.com/vi/_RbFspZq0Mg/hqdefault.jpg) no-repeat center center;
-    object-fit: cover;
     background-size: cover;
+}
+
+.campo-info {
+    display: flex;
+    flex-direction: column;
+    /* align-items:center; */
+    justify-content: space-around;
+    /* background-color: bisque; */
+    height: 140px;
 }
 
 .titulo-card-mais-populares {
     font-family: var(--fonte-Kanit);
     font-size: var(--fonte-size-Normal);
     font-weight: 500;
-    margin: 30px 0px 0px 15px;
+    margin: 0px 0px 0px 25px;
+    text-align: start;
+}
+
+.descricao-card-mais-populares {
+    font-family: var(--fonte-Kanit);
+    font-size: var(--fonte-size-Pequena);
+    font-weight: 300;
+    text-align: justify;
+    margin: 0px 25px 0px 25px;
     text-align: start;
 }
 
@@ -70,13 +108,14 @@
     justify-content: space-evenly;
     align-items: center;
     align-self: center;
-    margin: auto;
+    /* margin: auto; */
+
+    /* background-color: aquamarine; */
 }
 
 
 
 .bnt-tutorial {
-padding: 10px 40px;
 font-family: var(--fonte-Kanit);
 font-size: var(--fonte-size-Pequena);
 font-weight: 900;
