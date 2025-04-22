@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Karla:ital,wght@0,200..800;1,200..800&display=swap');
+
+
+:root {
+    --preto : #000000;
+    --laranja : #FF7409;
+	--verde-rodape : #062c0b;
+    --cinza : #5c5c5c;
+    --cinza-claro : #bbb8b8;
+    --cinza-hover : #282828;
+    --fonte-Karla : 'Karla', sans-serif;
+    --fonte-Kanit : 'Kanit', sans-serif;
+    --fonte-size-Pequena : 0.7rem;
+    --fonte-size-Media : 0.85rem;
+    --fonte-size-Normal : 1rem;
+    --fonte-size-Grande : 1.3rem;
+}
+
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+a {
+	color: inherit;
+	text-decoration: none;
+}
+
+img {
+	width: inherit;
+}
+button:focus,
+button:focus-visible,
+button:active {
+	outline: none;
+	box-shadow: none;
+	-webkit-tap-highlight-color: transparent; /* importante para mobile */
+}
+a:focus,
+a:focus-visible,
+a:active {
+	outline: none;
+	box-shadow: none;
+	-webkit-tap-highlight-color: transparent; /* importante para mobile */
+}
+button {
+	font-family: inherit;
+	font-size: inherit;
+	color: inherit;
+	font-weight: inherit;
+	padding: 0;
+	border: none;
+	background-color: unset;
+}
+
+input {
+	border: none;
+	color: inherit;
+	font-size: inherit;
+	font-weight: inherit;
+	font-family: inherit;
+}
+
+textarea {
+	border: none;
+	color: inherit;
+	font-size: inherit;
+	font-weight: inherit;
+	font-family: inherit;
+}
+
+select {
+	border: none;
+	color: inherit;
+	font-size: inherit;
+	font-weight: inherit;
+	font-family: inherit;
+}
+
+/* Estilização do botão de voltar */
+.btn-voltar {
+	font-family: var(--fonte-Kanit);
+	font-size: var(--fonte-size-Normal);
+	font-weight: 900;
+	background-color: #008542;
+	color: #fff;
+	width: 160px;
+	height: 48px;
+	text-shadow: 0 2px 0 rgb(0 0 0 / 25%);
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	position: relative;
+	border: 0;
+	z-index: 1;
+	user-select: none;
+	cursor: pointer;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	white-space: unset;
+	padding: 0.8rem 1.5rem;
+	gap: 10px;
+	text-decoration: none;
+	transition: all 0.7s cubic-bezier(0, 0.8, 0.26, 0.99);
+}
+  
+.btn-voltar:before {
+position: absolute;
+pointer-events: none;
+top: 0;
+left: 0;
+display: block;
+width: 100%;
+height: 100%;
+content: "";
+transition: 0.7s cubic-bezier(0, 0.8, 0.26, 0.99);
+z-index: -1;
+background-color: #008542 !important;
+box-shadow: 0 -4px rgb(21 108 0 / 50%) inset,
+	0 4px rgb(100 253 31 / 99%) inset, -4px 0 rgb(100 253 31 / 50%) inset,
+	4px 0 rgb(21 108 0 / 50%) inset;
+}
+
+.btn-voltar:after {
+position: absolute;
+pointer-events: none;
+top: 0;
+left: 0;
+display: block;
+width: 100%;
+height: 100%;
+content: "";
+box-shadow: 0 4px 0 0 rgb(0 0 0 / 15%);
+transition: 0.7s cubic-bezier(0, 0.8, 0.26, 0.99);
+}
+
+.btn-voltar:hover:before {
+box-shadow: 0 -4px rgb(0 0 0 / 50%) inset, 0 4px rgb(255 255 255 / 20%) inset,
+	-4px 0 rgb(255 255 255 / 20%) inset, 4px 0 rgb(0 0 0 / 50%) inset;
+}
+
+.btn-voltar:hover:after {
+box-shadow: 0 4px 0 0 rgb(0 0 0 / 15%);
+}
+
+.btn-voltar:active {
+transform: translateY(4px);
+}
+
+.btn-voltar:active:after {
+box-shadow: 0 0px 0 0 rgb(0 0 0 / 15%);
+}
+
+.btn-voltar:focus,
+.btn-voltar:focus-visible,
+.btn-voltar:active {
+	outline: none;
+	box-shadow: none;
+	-webkit-tap-highlight-color: transparent; /* importante para mobile */
+}
+
