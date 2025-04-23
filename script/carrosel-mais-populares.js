@@ -1,4 +1,5 @@
 import { dadosDosCards } from './dadosDosCards.js';
+import { criarPaginaCard } from './criarPaginaCard.js';
 
 const container = document.getElementById('carroselContainer');
 
@@ -50,15 +51,25 @@ const swiper = new Swiper('.swiper', {
 });
 
 document.getElementById('carroselContainer').addEventListener('click', function(e) {
+    const btn = e.target.closest('.bnt-tutorial');
+    if (btn) {
+        const card = btn.closest('.swiper-slide');
+        const index = [...document.querySelectorAll('.swiper-slide')].indexOf(card);
+
+        const cardDados = dadosDosCards[index];
+        criarPaginaCard(cardDados);
+        return;
+    }
+
     const cardClicado = e.target.closest('.carrosel-mais-populares-item_card');
     if (cardClicado) {
-        swiper.autoplay.stop(); // pausa o autoplay
+        swiper.autoplay.stop(); 
         console.log('Autoplay pausado');
 
-        clearTimeout(window._carroselTimeout); // evita múltiplos timeouts empilhados
+        clearTimeout(window._carroselTimeout); 
 
         window._carroselTimeout = setTimeout(() => {
-            swiper.autoplay.start(); // retoma autoplay após 5 segundos
+            swiper.autoplay.start();
             console.log('Autoplay retomado');
         }, 5500);
     }

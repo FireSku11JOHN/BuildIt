@@ -1,12 +1,7 @@
 // import { dadosDosCards } from "./dadosDosCards"; 
 
-// function criarPaginaCard() {
-//     window.location.href = "pagina_card.html";
-// }
-
-const btnTutorial = document.querySelectorAll('.bnt-tutorial');
-
-btnTutorial.addEventListener('click', () => {
-    console.log('Botão "TUTORIAL" clicado!');
-})
+export function criarPaginaCard(cardDados){
+    localStorage.setItem('cardSelecionado', JSON.stringify(cardDados));
+    window.location.href = "./pages/pagina_card.html"; 
+}
     
