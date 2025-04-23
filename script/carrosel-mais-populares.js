@@ -11,7 +11,7 @@ dadosDosCards.forEach(item => {
             <div class="img" style="background-image: url('${item.imagem}')"></div>
             <div class="campo-info">
                 <h3 class="titulo-card-mais-populares">${item.titulo}</h3>
-                <p class="descricao-card-mais-populares">${item.descricao}</p>
+                <p class="descricao-card-mais-populares">${item.descricaoBreve}</p>
                 <div class="opc-bnt">
                     <button class="bnt-tutorial" >TUTORIAL</button>
                     <button class="bnt-favoritar bnt">
