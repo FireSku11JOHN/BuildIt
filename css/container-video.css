@@ -1,7 +1,7 @@
 .container-video {
     width: 100%;
     align-items: center;
-    height: auto;
+    /* height: auto; */
 }
 
 #video-card{
