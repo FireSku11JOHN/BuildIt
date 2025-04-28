@@ -10,9 +10,11 @@
 }
 
 #video-card{
-    padding-top: 35px;
+    /* padding-top: 35px; */
+    margin-top: 35px;
     width: 300px;
     aspect-ratio: 16/9;
+    box-shadow: rgba(0, 0, 0, 0.3) 5px 5px 15px;
 }
 
 .info-video{
@@ -24,6 +26,7 @@
     max-width: 500px;
     background-color: var(--cinza-claro);
     border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.5) 10px 10px 30px;
 }
 
 #titulo-video {

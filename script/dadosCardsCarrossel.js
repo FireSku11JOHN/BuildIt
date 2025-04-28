@@ -1,4 +1,4 @@
-export const dadosDosCards = [   //Mudar o condeudo dos cards do carrossel
+export const dadosCardsCarrossel = [   //Mudar o condeudo dos cards do carrossel
     {  //Card 1
         titulo: "Casa Moderna",
         imagem: "https://img.youtube.com/vi/_RbFspZq0Mg/hqdefault.jpg",

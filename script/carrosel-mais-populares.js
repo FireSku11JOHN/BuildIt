@@ -1,9 +1,9 @@
-import { dadosDosCards } from './dadosDosCards.js';
+import { dadosCardsCarrossel } from './dadosCardsCarrossel.js';
 import { criarPaginaCard } from './criarPaginaCard.js';
 
 const container = document.getElementById('carroselContainer');
 
-dadosDosCards.forEach(item => {
+dadosCardsCarrossel.forEach(item => {
     const slide = document.createElement('div');
     slide.classList.add('swiper-slide');
     slide.innerHTML = `
@@ -56,7 +56,7 @@ document.getElementById('carroselContainer').addEventListener('click', function(
         const card = btn.closest('.swiper-slide');
         const index = [...document.querySelectorAll('.swiper-slide')].indexOf(card);
 
-        const cardDados = dadosDosCards[index];
+        const cardDados = dadosCardsCarrossel[index];
         criarPaginaCard(cardDados);
         return;
     }
