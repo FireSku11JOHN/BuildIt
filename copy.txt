@@ -1,0 +1,21 @@
+                <!-- <div class="section-estilo">
+                    <h3 class="titulo-section_sub">Medieval</h3>
+
+                    <div class="container-card">
+                        <ul class="cards-list">
+
+                            <li class="card">
+                                <img class="img-card" src="https://img.youtube.com/vi/_RbFspZq0Mg/hqdefault.jpg" alt="">
+                                <div class="div">
+                                    <h4 class="titulo-card">Casa moderna</h4>
+                                    <button class="bnt-favoritar bnt bnt-favoritar-card">
+                                        <i class="fa-regular fa-bookmark"></i>
+                                    </button>
+                                </div>
+                                <div class="opc-bnt-cardb">
+                                    <button class="bnt-tutorial bnt-tutorial-card" >TUTORIAL</button>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div> -->
