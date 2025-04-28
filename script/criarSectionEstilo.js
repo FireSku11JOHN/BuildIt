@@ -1,5 +1,5 @@
 import { dadosEstilos } from "./dadosEstilos.js";
-import { dadosCardsEstilos } from "./dadosCardsEstilos.js";
+import { dadosCardSection } from "./dadosCardSection.js";
 
 const containeEstilo = document.getElementById('container-estilos');
 
@@ -11,19 +11,22 @@ dadosEstilos.forEach(item => {
         <div class="section-estilo">
             <h3 class="titulo-section_sub">${item.nome}</h3>
             <div class="container-card">
-                <ul class="cards-list">
-                    
+                <ul class="cards-list"></ul>
             </div>
         </div>
-        `
+    `;
+
     containeEstilo.appendChild(divDoEstilo);
 
-    dadosCardsEstilos.forEach(card => {
-        const cardsList = document.getElementsByClassName('cards-list');
+    // Agora pegamos o UL correto dentro dessa div que acabamos de criar:
+    const cardsList = divDoEstilo.querySelector('.cards-list');
 
-        if (card.tag == item.tag) {
-            cardsList.innerHTML += `
-            <li class="card">
+    // Agora sim percorremos todos os cards
+    dadosCardSection.forEach(card => {
+        if (item.tag === card.tag) {
+            const cardItem = document.createElement('li');
+            cardItem.classList.add('card');
+            cardItem.innerHTML = `
                 <img class="img-card" src="${card.imagem}" alt="">
                 <div class="div">
                     <h4 class="titulo-card">${card.titulo}</h4>
@@ -32,15 +35,11 @@ dadosEstilos.forEach(item => {
                     </button>
                 </div>
                 <div class="opc-bnt-cardb">
-                    <button class="bnt-tutorial bnt-tutorial-card" >TUTORIAL</button>
+                    <button class="bnt-tutorial bnt-tutorial-card">TUTORIAL</button>
                 </div>
-            </li>
-        `
-        } else {
-            return
+            `;
+            cardsList.appendChild(cardItem); // adiciona o card na ul correta
         }
-
-        
     });
 
 });

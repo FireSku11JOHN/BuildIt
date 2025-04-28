@@ -56,21 +56,22 @@
 
 .img-card{
     width: 100%;
-    height: 80px;
+    height: 79px;
     object-fit: cover;
     border-radius: 10px 10px 0 0;
 }
 
 .div{
     display: flex;
-    justify-content: space-around;
+    width: 100%;
     align-items: center;
 }
 
 .titulo-card {
     font-family: var(--fonte-Kanit);
     font-size: var(--fonte-size-Media);
-    font-weight: 500;
+    font-weight: 400;
+    width: 100px;
     margin-left: 5px;
 }
 
@@ -84,10 +85,9 @@
 }
 
 .opc-bnt-cardb{
-    margin-top: 5PX;
     display: flex;
     justify-content: center;
-    margin-bottom: 16px;
+    margin: 24px 0 24px 0;
 }
 
 .bnt-tutorial-card {
