@@ -1,11 +1,11 @@
 export const dadosEstilos = [
     { 
         nome: "Moderna",
-        tag: "moderna1"
+        tag: "moderna"
     },
     { 
         nome: "Medieval",
-        tag: "medieval1"
+        tag: "medieval"
     },
     { 
         nome: "Fantasia",
