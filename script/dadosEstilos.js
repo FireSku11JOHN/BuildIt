@@ -1,15 +1,15 @@
 export const dadosEstilos = [
     { 
         nome: "Moderna",
-        tag: "moderna"
+        tag: "moderna1"
     },
     { 
         nome: "Medieval",
-        tag: "medieval"
+        tag: "medieval1"
     },
     { 
-        nome: "Subterrânea",
-        tag: "subterranea"
+        nome: "Fantasia",
+        tag: "fantasia"
     },
     { 
         nome: "Casa na Árvore",

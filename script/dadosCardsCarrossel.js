@@ -1,6 +1,6 @@
 export const dadosCardsCarrossel = [   //Mudar o condeudo dos cards do carrossel
     {  //Card 1
-        titulo: "Casa Moderna",
+        titulo: "Casa Moderna Luxuosa",
         imagem: "https://img.youtube.com/vi/_RbFspZq0Mg/hqdefault.jpg",
         url: "https://www.youtube.com/watch?v=_RbFspZq0Mg&t=2s",
         descricaoBreve:"Uma construção estilosa com tudo que você precisa: piscina, visual moderno e uma base escondida embaixo da terra. Ideal pra quem curte jogar com estilo e segurança!",

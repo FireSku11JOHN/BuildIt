@@ -40,14 +40,6 @@ const swiper = new Swiper('.swiper', {
         dynamicBullets: true,
         clickable: true,
     },
-    // breakpoints: {
-    //     768: {
-    //         slidesPerView: 2
-    //     },
-    //     1024: {
-    //         slidesPerView: 3
-    //     }
-    // }
 });
 
 document.getElementById('carroselContainer').addEventListener('click', function(e) {

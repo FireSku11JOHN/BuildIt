@@ -18,10 +18,8 @@ dadosEstilos.forEach(item => {
 
     containeEstilo.appendChild(divDoEstilo);
 
-    // Agora pegamos o UL correto dentro dessa div que acabamos de criar:
     const cardsList = divDoEstilo.querySelector('.cards-list');
 
-    // Agora sim percorremos todos os cards
     dadosCardSection.forEach(card => {
         if (item.tag === card.tag) {
             const cardItem = document.createElement('li');
@@ -38,8 +36,25 @@ dadosEstilos.forEach(item => {
                     <button class="bnt-tutorial bnt-tutorial-card">TUTORIAL</button>
                 </div>
             `;
-            cardsList.appendChild(cardItem); // adiciona o card na ul correta
+            cardsList.appendChild(cardItem);
         }
     });
 
+});
+
+import { criarPaginaCard } from './criarPaginaCard.js';
+
+document.getElementById('container-estilos').addEventListener('click', function (e) {
+    const botaoTutorial = e.target.closest('.bnt-tutorial-card');
+    if (botaoTutorial) {
+        const cardElement = botaoTutorial.closest('.card');
+        const titulo = cardElement.querySelector('.titulo-card').textContent;
+
+        const cardDados = dadosCardSection.find(card => card.titulo === titulo);
+        if (cardDados) {
+            criarPaginaCard(cardDados);
+        } else {
+            console.warn('Card não encontrado:', titulo);
+        }
+    }
 });
