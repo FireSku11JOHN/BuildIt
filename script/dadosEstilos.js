@@ -12,7 +12,11 @@ export const dadosEstilos = [
         tag: "fantasia"
     },
     { 
-        nome: "Casa na Árvore",
-        tag: "casa-na-arvore"
+        nome: "Steampunk",
+        tag: "steampunk"
+    },
+    { 
+        nome: "Rústico",
+        tag: "rustico"
     }
 ]

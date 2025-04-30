@@ -89,6 +89,7 @@ export const dadosCardSection = [
         tag: "moderna"
     }
     ,
+
     // Medieval
     {
         titulo: "Armazém Medieval",
@@ -107,6 +108,15 @@ export const dadosCardSection = [
         descricao: "Se você quer uma casa medieval incrível para seu mundo survival, este tutorial é perfeito! Aprenda a construir uma estrutura detalhada, com um telhado imponente, paredes reforçadas e uma decoração autêntica que combina perfeitamente com o estilo medieval.",
         nomeCanal: "Ei Natsu",
         urlCanal: "https://www.youtube.com/@EiNatsu",
+        tag: "medieval"
+    },
+    {
+        titulo: "Cabana do Ferreiro Medieval",
+        imagem: "https://img.youtube.com/vi/rSsqIZZtKpI/hqdefault.jpg",
+        url: "https://www.youtube.com/watch?v=rSsqIZZtKpI",
+        descricao: "Aprenda a construir uma autêntica casa de ferreiro medieval no Minecraft com este tutorial detalhado. Ideal para adicionar um toque histórico e funcional ao seu mundo, esta construção combina elementos rústicos e estéticos únicos.",
+        nomeCanal: "KoalaBuilds",
+        urlCanal: "https://www.youtube.com/@KoalaBuilds",
         tag: "medieval"
     },
     {
@@ -165,7 +175,9 @@ export const dadosCardSection = [
         urlCanal: "https://www.youtube.com/@Catlinecrafting",
         tag: "medieval"
     },
-    {
+
+    // Fantasia
+    { 
         titulo: "Casa de Fantasia com Teto de Cogumelo",
         imagem: "https://img.youtube.com/vi/_eRKQ-uc25M/hqdefault.jpg",
         url: "https://www.youtube.com/watch?v=_eRKQ-uc25M",
@@ -236,8 +248,197 @@ export const dadosCardSection = [
         nomeCanal: "Minecraft Fantasy Builds",
         urlCanal: "https://www.youtube.com/@mc.fantasy",
         tag: "fantasia"
+    },
+
+    // Steampunk
+    {
+        titulo: "Casa Steampunk Simples",
+        imagem: "https://img.youtube.com/vi/q8NGLIxAVNo/hqdefault.jpg",
+        url: "https://www.youtube.com/watch?v=q8NGLIxAVNo",
+        descricao: "Explore o mundo do steampunk no Minecraft com este tutorial detalhado. Aprenda a construir uma casa criativa que combina elementos industriais e vitorianos, perfeita para adicionar um toque único e mecânico ao seu mundo.",
+        nomeCanal: "NeatCraft",
+        urlCanal: "https://www.youtube.com/@Neatcraft",
+        tag: "steampunk"
+    },
+    {
+        titulo: "Dirigível Steampunk",
+        imagem: "https://img.youtube.com/vi/3tnn9kFW8HI/hqdefault.jpg",
+        url: "https://www.youtube.com/watch?v=3tnn9kFW8HI",
+        descricao: "Aprenda a construir um impressionante dirigível steampunk no Minecraft com este tutorial detalhado. Ideal para adicionar um toque industrial e criativo ao seu mundo, esta construção combina elementos mecânicos e estéticos únicos.",
+        nomeCanal: "DiddiHD",
+        urlCanal: "https://www.youtube.com/@DiddiHD",
+        tag: "steampunk"
+    }, 
+    {
+        titulo: "Fábrica Steampunk",
+        imagem: "https://img.youtube.com/vi/WQnkO4pnCUE/hqdefault.jpg",
+        url: "https://www.youtube.com/watch?v=WQnkO4pnCUE",
+        descricao: "Aprenda a construir uma impressionante fábrica steampunk no Minecraft com este tutorial detalhado. Ideal para adicionar um toque industrial e criativo ao seu mundo, esta construção combina elementos mecânicos e estéticos únicos.",
+        nomeCanal: "Enchanted.Architecture",
+        urlCanal: "https://www.youtube.com/@EnchantedArchitecture",
+        tag: "steampunk"
+    },
+    {
+        titulo: "Robô Steampunk",
+        imagem: "https://img.youtube.com/vi/Gvb-n7t01Zw/hqdefault.jpg",
+        url: "https://www.youtube.com/watch?v=Gvb-n7t01Zw",
+        descricao: "Dê vida a um impressionante robô steampunk no Minecraft com este tutorial detalhado. Aprenda a combinar engrenagens, metais e criatividade para construir uma máquina única que adiciona um toque industrial e futurista ao seu mundo.",
+        nomeCanal: "Enchanted.Architecture",
+        urlCanal: "https://www.youtube.com/@EnchantedArchitecture",
+        tag: "steampunk"
+    },    
+    {
+        titulo: "Tanque Steampunk",
+        imagem: "https://img.youtube.com/vi/AHnyvYL7UvI/hqdefault.jpg",
+        url: "https://www.youtube.com/watch?v=AHnyvYL7UvI",
+        descricao: "Construa um poderoso tanque steampunk no Minecraft com este tutorial passo a passo. Com um visual robusto e mecânico, essa estrutura é perfeita para quem quer dar um ar de tecnologia retrô e fantasia bélica ao seu mundo.",
+        nomeCanal: "Enchanted.Architecture",
+        urlCanal: "https://www.youtube.com/@EnchantedArchitecture",
+        tag: "steampunk"
+    },
+    {
+        titulo: "Barco a Vapor",
+        imagem: "https://img.youtube.com/vi/iKfwpNxcl28/hqdefault.jpg",
+        url: "https://www.youtube.com/watch?v=iKfwpNxcl28",
+        descricao: "Aprenda a construir um impressionante barco steampunk no Minecraft com este tutorial detalhado. Ideal para adicionar um toque náutico e industrial ao seu mundo, esta construção combina elementos mecânicos e estéticos únicos.",
+        nomeCanal: "Enchanted.Architecture",
+        urlCanal: "https://www.youtube.com/@EnchantedArchitecture",
+        tag: "steampunk"
+    },
+    {
+        titulo: "Dirigível Steampunk Simples",
+        imagem: "https://img.youtube.com/vi/s2N1zbJDQvc/hqdefault.jpg",
+        url: "https://www.youtube.com/watch?v=s2N1zbJDQvc",
+        descricao: "Aprenda a construir um dirigível steampunk simples no Minecraft com este tutorial detalhado. Ideal para adicionar um toque aéreo e industrial ao seu mundo, esta construção combina elementos mecânicos e estéticos únicos.",
+        nomeCanal: "Twin Saw",
+        urlCanal: "https://www.youtube.com/@TwinSaw",
+        tag: "steampunk"
+    },
+    {
+        titulo: "Torre do Relógio Steampunk",
+        imagem: "https://img.youtube.com/vi/WzHdjVswltM/hqdefault.jpg",
+        url: "https://www.youtube.com/watch?v=WzHdjVswltM",
+        descricao: "Aprenda a construir uma impressionante torre do relógio steampunk no Minecraft com este tutorial detalhado. Ideal para adicionar um toque industrial e criativo ao seu mundo, esta construção combina elementos mecânicos e estéticos únicos.",
+        nomeCanal: "lujoBoy",
+        urlCanal: "https://www.youtube.com/@lujoBoy",
+        tag: "steampunk"
+    },
+    {
+        titulo: "Estação de Energia",
+        imagem: "https://img.youtube.com/vi/Vkf_zMhPlY4/hqdefault.jpg",
+        url: "https://www.youtube.com/watch?v=Vkf_zMhPlY4",
+        descricao: "Construa uma impressionante estação de energia steampunk no Minecraft com este tutorial detalhado. Ideal para adicionar um toque industrial e criativo ao seu mundo, esta construção combina elementos mecânicos e estéticos únicos.",
+        nomeCanal: "Enchanted.Architecture",
+        urlCanal: "https://www.youtube.com/@Enchanted.Architecture",
+        tag: "steampunk"
+    },
+    {
+        titulo: "Farol Steampunk no Minecraft",
+        imagem: "https://img.youtube.com/vi/BWchScJZX4Y/hqdefault.jpg",
+        url: "https://www.youtube.com/watch?v=BWchScJZX4Y",
+        descricao: "Aprenda a construir um impressionante farol steampunk no Minecraft com este tutorial detalhado. Ideal para adicionar um toque industrial e criativo ao seu mundo, esta construção combina elementos mecânicos e estéticos únicos.",
+        nomeCanal: "Enchanted.Architecture",
+        urlCanal: "https://www.youtube.com/@Enchanted.Architecture",
+        tag: "steampunk"
+    },
+
+    // Rustico
+    {
+        titulo: "Moinho de Vento",
+        imagem: "https://img.youtube.com/vi/S1-6DITw3g4/hqdefault.jpg",
+        url: "https://www.youtube.com/watch?v=S1-6DITw3g4",
+        descricao: "Aprenda a construir um charmoso moinho de vento rústico no Minecraft com este tutorial detalhado. Ideal para adicionar um toque campestre e tradicional ao seu mundo, esta construção combina simplicidade e beleza natural.",
+        nomeCanal: "Nanaroid",
+        urlCanal: "https://www.youtube.com/@nanaroid1",
+        tag: "rustico"
+    },
+    {
+        titulo: "Cabana de Madeira",
+        imagem: "https://img.youtube.com/vi/Kp73eZjLQi8/hqdefault.jpg",
+        url: "https://www.youtube.com/watch?v=Kp73eZjLQi8",
+        descricao: "Se você está começando no Minecraft ou quer uma construção rápida e bonita, essa casa é perfeita! Com um design moderno e uso inteligente de madeira, ela é fácil de montar e fica ótima em qualquer mundo. Ideal para quem busca praticidade sem abrir mão do estilo.",
+        nomeCanal: "ALKE BUILDS",
+        urlCanal: "https://www.youtube.com/@ALKEBUILDS",
+        tag: "rustico"
+    },
+    {
+        titulo: "Casa Simples de Pedra",
+        imagem: "https://img.youtube.com/vi/RPNwtWBJBZE/hqdefault.jpg",
+        url: "https://www.youtube.com/watch?v=RPNwtWBJBZE",
+        descricao: "Se você curte construções aconchegantes com cara de campo, essa casa rústica é perfeita pro seu mundo Minecraft! Com madeira, pedra e um design acolhedor, essa construção é ideal pra quem quer um lar tranquilo e cheio de charme em meio à natureza.",
+        nomeCanal: "Cryptozoology",
+        urlCanal: "https://www.youtube.com/@Cryptozoology",
+        tag: "rustico"
+    },
+    {
+        titulo: "Cabana Rústica",
+        imagem: "https://img.youtube.com/vi/_4WodIMT7aU/hqdefault.jpg",
+        url: "https://www.youtube.com/watch?v=_4WodIMT7aU",
+        descricao: "Aprenda a construir uma charmosa cabana rústica no Minecraft com este tutorial detalhado. Ideal para adicionar um toque acolhedor e natural ao seu mundo, esta construção combina simplicidade e beleza campestre.",
+        nomeCanal: "Goldrobin",
+        urlCanal: "https://www.youtube.com/@Goldrobin",
+        tag: "rustico"
+    },
+    {
+        titulo: "Casa Pequena e Aconchegante",
+        imagem: "https://img.youtube.com/vi/6Y8yknIzj4Q/hqdefault.jpg",
+        url: "https://www.youtube.com/watch?v=6Y8yknIzj4Q",
+        descricao: "Aprenda a construir uma charmosa casa pequena rústica no Minecraft com este tutorial detalhado. Ideal para adicionar um toque acolhedor e natural ao seu mundo, esta construção combina simplicidade e beleza campestre.",
+        nomeCanal: "KoalaBuilds",
+        urlCanal: "https://www.youtube.com/@KoalaBuilds",
+        tag: "rustico"
+    },
+    {
+        titulo: "Casa de Sobrevivência Grande",
+        imagem: "https://img.youtube.com/vi/Hm7YLuvrTs8/hqdefault.jpg",
+        url: "https://www.youtube.com/watch?v=Hm7YLuvrTs8",
+        descricao: "Aprenda a construir uma casa de sobrevivência espaçosa no Minecraft com este tutorial detalhado. Ideal para jogadores que buscam um refúgio funcional e esteticamente agradável, esta construção oferece amplo espaço para armazenamento, áreas de cultivo e muito mais.",
+        nomeCanal: "KoalaBuilds",
+        urlCanal: "https://www.youtube.com/@KoalaBuilds",
+        tag: "rustico"
+    },
+    {
+        titulo: "Cabana de Pinheiros",
+        imagem: "https://img.youtube.com/vi/xGBGcZnqiiY/hqdefault.jpg",
+        url: "https://www.youtube.com/watch?v=xGBGcZnqiiY",
+        descricao: "Aprenda a construir uma charmosa cabana de pinheiros no Minecraft com este tutorial detalhado. Ideal para adicionar um toque acolhedor e natural ao seu mundo, esta construção combina simplicidade e beleza campestre.",
+        nomeCanal: "Gorillo",
+        urlCanal: "https://www.youtube.com/@Gorillo",
+        tag: "rustico"
+    },
+    {
+        titulo: "Casa Grande Rústica",
+        imagem: "https://img.youtube.com/vi/XIBLsoWyJ7c/hqdefault.jpg",
+        url: "https://www.youtube.com/watch?v=XIBLsoWyJ7c",
+        descricao: "Aprenda a construir uma espaçosa casa rústica no Minecraft com este tutorial detalhado. Ideal para adicionar um toque tradicional e acolhedor ao seu mundo, esta construção combina simplicidade e beleza natural.",
+        nomeCanal: "Gorillo",
+        urlCanal: "https://www.youtube.com/@Gorillo",
+        tag: "rustico"
+    },
+    {
+        titulo: "Casa Rústica de Pinheiros",
+        imagem: "https://img.youtube.com/vi/U0JrRf4Ir4Q/hqdefault.jpg",
+        url: "https://www.youtube.com/watch?v=U0JrRf4Ir4Q",
+        descricao: "Descubra como construir uma linda casa rústica com temática de pinheiros no Minecraft. Com um estilo aconchegante e cercada pela natureza, essa construção é perfeita para quem busca uma base charmosa e natural para viver e sobreviver com estilo.",
+        nomeCanal: "SheepGG",
+        urlCanal: "https://www.youtube.com/@SheepGG",
+        tag: "rustico"
+    },
+    {
+        titulo: "Cabana de Carvalho Escuro",
+        imagem: "https://img.youtube.com/vi/O09375x8Ois/hqdefault.jpg",
+        url: "https://www.youtube.com/watch?v=O09375x8Ois",
+        descricao: "Se você curte construções com clima aconchegante e um visual mais denso, essa cabana feita com madeira de carvalho escuro é perfeita! Compacta, estilosa e fácil de montar, ela traz o charme da floresta direto pro seu mundo no Minecraft.",
+        nomeCanal: "Lex The Builder",
+        urlCanal: "https://www.youtube.com/@LexTheBuilder",
+        tag: "rustico"
     }
-      
+    
+    
+    
+        
+    
+    
     
     
 ];
