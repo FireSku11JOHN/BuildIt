@@ -15,7 +15,7 @@
     font-family: var(--fonte-Kanit);
     font-size: var(--fonte-size-Normal);
     font-weight: 500;
-    margin-top: 24px;
+    /* margin-top: 10px; */
     padding-top: 10px;
     width: 100%;
     border-top: 1px solid #000;
@@ -36,7 +36,6 @@
     width: 100%;
     height: auto;
 }
-
 
 .card {
     max-width: 138px;
