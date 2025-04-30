@@ -15,10 +15,10 @@
     font-family: var(--fonte-Kanit);
     font-size: var(--fonte-size-Normal);
     font-weight: 500;
-    /* margin-top: 10px; */
     padding-top: 10px;
     width: 100%;
     border-top: 1px solid #000;
+    background-size: contain;
 }
 
 .container-card {
@@ -35,6 +35,8 @@
     gap: 10px;
     width: 100%;
     height: auto;
+    padding-top: 10px;
+    margin-bottom: 25px;
 }
 
 .card {
