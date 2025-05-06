@@ -23,7 +23,7 @@ dadosCardSection.forEach(card => {
         </button>
       </div>
       <div class="opc-bnt-cardb">
-        <button class="bnt-tutorial bnt-tutorial-card">TUTORIAL</button>
+        <button class="bnt-tutorial bnt-tutorial-card" id="btn-teste" >TUTORIAL</button>
       </div>    
     `;
     lista.appendChild(cardItem);

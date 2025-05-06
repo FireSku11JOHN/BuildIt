@@ -136,7 +136,7 @@
     </nav>
 
     <main class="container-estilos-main">
-        <section class="container-estilos">
+        <section class="container-estilos" id="container-estilos">
             <div id="pagina-estilo" class="section-estilo">
                 <h3 id="titulo-estilo" class="titulo-section_sub"></h3>
                 <div class="container-card">
@@ -170,6 +170,31 @@
     
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 
+    <script type="module" defer> 
+        // Função para abrir a página card.html a partir da página todosCardsEstilos.html 
+
+        import { dadosCardSection } from "/script/dadosCardSection.js";
+        import { criarPaginaCard } from '/script/criarPaginaCard.js';
+
+        document.addEventListener('click', function(e) {
+            const botaoTutorial = e.target.closest('.bnt-tutorial-card');
+            if (botaoTutorial) {
+                const cardElement = botaoTutorial.closest('.card');
+                const titulo = cardElement.querySelector('.titulo-card').textContent;
+
+                const cardDados = dadosCardSection.find(card => card.titulo === titulo);
+                if (cardDados) {
+                    console.log('Tutorial clicado para:', titulo);
+                    // criarPaginaCard(cardDados); 
+                    localStorage.setItem('cardSelecionado', JSON.stringify(cardDados));
+                    window.location.href = "card.html"; 
+    
+                } else {
+                console.log('Card não encontrado:', titulo); 
+                }
+            }
+        });
+    </script>
 
 </body>
 </html>
