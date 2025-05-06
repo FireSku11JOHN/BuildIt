@@ -13,6 +13,9 @@ dadosEstilos.forEach(item => {
             <div class="container-card">
                 <ul class="cards-list"></ul>
             </div>
+            <button class="btn-voltar bnt-vermais-cards" data-tag="${item.tag}">
+                VER MAIS <i class="fa-solid fa-arrow-right"></i>
+            </button>
         </div>
     `;
 
@@ -20,27 +23,40 @@ dadosEstilos.forEach(item => {
 
     const cardsList = divDoEstilo.querySelector('.cards-list');
 
+    let contador = 0; // Contador para limitar a exibição de cards
     dadosCardSection.forEach(card => {
         if (item.tag === card.tag) {
-            const cardItem = document.createElement('li');
-            cardItem.classList.add('card');
-            cardItem.innerHTML = `
-                <img class="img-card" src="${card.imagem}" alt="">
-                <div class="div">
-                    <h4 class="titulo-card">${card.titulo}</h4>
-                    <button class="bnt-favoritar bnt bnt-favoritar-card">
-                        <i class="fa-regular fa-bookmark"></i>
-                    </button>
-                </div>
-                <div class="opc-bnt-cardb">
-                    <button class="bnt-tutorial bnt-tutorial-card">TUTORIAL</button>
-                </div>
-            `;
-            cardsList.appendChild(cardItem);
+            if (contador < 6) {
+                const cardItem = document.createElement('li');
+                cardItem.classList.add('card');
+                cardItem.innerHTML = `
+                    <img class="img-card" src="${card.imagem}" alt="">
+                    <div class="div">
+                        <h4 class="titulo-card">${card.titulo}</h4>
+                        <button class="bnt-favoritar bnt bnt-favoritar-card">
+                            <i class="fa-regular fa-bookmark"></i>
+                        </button>
+                    </div>
+                    <div class="opc-bnt-cardb">
+                        <button class="bnt-tutorial bnt-tutorial-card">TUTORIAL</button>
+                    </div>                
+                `;
+                cardsList.appendChild(cardItem);
+                contador++; 
+            }
         }
     });
-
 });
+
+document.getElementById('container-estilos').addEventListener('click', (e) => {
+    const botao = e.target.closest('.bnt-vermais-cards');
+    if (botao) {
+        const tag = botao.getAttribute('data-tag');
+        window.location.href = `./pages/todosCardsEstilos.html?estilo=${encodeURIComponent(tag)}`;
+    }
+});
+
+
 
 import { criarPaginaCard } from './criarPaginaCard.js';
 

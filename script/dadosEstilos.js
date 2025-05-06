@@ -9,14 +9,18 @@ export const dadosEstilos = [
     },
     { 
         nome: "Fantasia",
-        tag: "fantasia"
+        tag: "fantasia1"
     },
     { 
         nome: "Steampunk",
-        tag: "steampunk"
+        tag: "steampunk1"
     },
     { 
         nome: "Rústico",
-        tag: "rustico"
+        tag: "rustico1"
+    },
+    { 
+        nome: "Natural",
+        tag: "natural"
     }
 ]

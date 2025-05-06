@@ -6,6 +6,17 @@
     max-width: 700px;
 }
 
+.container-estilos-main {
+    position: relative;
+    top: 66px;
+    padding-top: 60px;
+    justify-content: center;
+    /* margin: 100px ; */
+    margin: 0 auto;
+    width: 85%;
+    /* max-width: 700px; */
+}
+
 .section-estilo{
     display: flex;
     flex-wrap: wrap;
@@ -29,6 +40,10 @@
     height: auto;
 }
 
+.bnt-vermais-cards{
+    margin: 0 auto 20px auto;
+}
+
 .cards-list {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(130px, 1fr));
@@ -40,7 +55,7 @@
 }
 
 .card {
-    max-width: 138px;
+    max-width: 139px;
     width: 100%;
     height: auto;
     border-radius: 12px;
@@ -90,17 +105,22 @@
 
 }
 
+.btn-voltar-mais-cards{
+    margin: 0px auto 20px auto;
+    /* align-self: center;s */
+}
+
 @media (max-width: 356px) {
     .cards-list{
         gap: 10px;
     }
 
     .card {
-        max-width: 129px;
+        max-width: 130px;
     }  
 
     .img-card{
-        height: 73px;
+        height: 74px;
     }   
 }
 
@@ -118,7 +138,7 @@
     }
 
     .card {
-        max-width: unset;
+        max-width: 173px;
         width: 100%;
         margin-top: 34px;
     }
