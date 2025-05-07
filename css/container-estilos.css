@@ -73,7 +73,8 @@
 .div{
     display: flex;
     width: 100%;
-    align-items: center;
+    /* align-items: self-start; */
+    height: 42px;
 }
 
 .titulo-card {
@@ -148,7 +149,7 @@
     }
 
     .img-card{
-        height: 98px;
+        height: 97px;
     } 
 
     .div{
