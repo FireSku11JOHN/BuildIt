@@ -60,38 +60,38 @@
         <nav id="menu-estilo" class="fechar">
             <ul class="menu-estilo-lista">
                 <li class="menu-estilo-lista_item">
-                    <a href="/aula4/teste.html" class="menu-estilo_item-botao">Medieval</a>
-                    <a href="#" class="menu-estilo_item-botao">Natureza</a>
-                    <a href="#" class="menu-estilo_item-botao">Futurista</a>
-                    <a href="#" class="menu-estilo_item-botao">Russo</a>
-                    <a href="#" class="menu-estilo_item-botao">Base Subterrânea</a>
-                    <a href="#" class="menu-estilo_item-botao">Mediterrâneo</a>
+                    <a class="menu-estilo_item-botao btnEstilo">Medieval</a>
+                    <a class="menu-estilo_item-botao btnEstilo">Natureza</a>
+                    <a class="menu-estilo_item-botao btnEstilo">Futurista</a>
+                    <a class="menu-estilo_item-botao btnEstilo">Russo</a>
+                    <a class="menu-estilo_item-botao btnEstilo">Base Subterrânea</a>
+                    <a class="menu-estilo_item-botao btnEstilo">Mediterrâneo</a>
                 </li>
                 <li class="menu-estilo-lista_item">
-                    <a href="/aula4/teste.html" class="menu-estilo_item-botao">Rústico</a>
-                    <a href="#" class="menu-estilo_item-botao">Fantasia</a>
-                    <a href="#" class="menu-estilo_item-botao">Mansão</a>
-                    <a href="#" class="menu-estilo_item-botao">Egipcio</a>
-                    <a href="#" class="menu-estilo_item-botao">The End</a>
-                    <a href="#" class="menu-estilo_item-botao">Gótico</a>
+                    <a class="menu-estilo_item-botao btnEstilo">Rústico</a>
+                    <a class="menu-estilo_item-botao btnEstilo">Fantasia</a>
+                    <a class="menu-estilo_item-botao btnEstilo">Mansão</a>
+                    <a class="menu-estilo_item-botao btnEstilo">Egipcio</a>
+                    <a class="menu-estilo_item-botao btnEstilo">The End</a>
+                    <a class="menu-estilo_item-botao btnEstilo">Gótico</a>
                 </li>
                 <li class="menu-estilo-lista_item">
-                    <a href="/aula4/teste.html" class="menu-estilo_item-botao">Moderno</a>
-                    <a href="#" class="menu-estilo_item-botao">Fazenda</a>
-                    <a href="#" class="menu-estilo_item-botao">Japonês</a>
-                    <a href="#" class="menu-estilo_item-botao">Deserto</a>
-                    <a href="#" class="menu-estilo_item-botao">Nether</a>
-                    <a href="#" class="menu-estilo_item-botao">Industrial</a>
+                    <a class="menu-estilo_item-botao btnEstilo">Moderna</a>
+                    <a class="menu-estilo_item-botao btnEstilo">Fazenda</a>
+                    <a class="menu-estilo_item-botao btnEstilo">Japonês</a>
+                    <a class="menu-estilo_item-botao btnEstilo">Deserto</a>
+                    <a class="menu-estilo_item-botao btnEstilo">Nether</a>
+                    <a class="menu-estilo_item-botao btnEstilo">Industrial</a>
                 </li>
                 <li class="menu-estilo-lista_item">
-                    <a href="/aula4/teste.html" class="menu-estilo_item-botao">Steampunk</a>
-                    <a href="#" class="menu-estilo_item-botao">Clássico</a>
-                    <a href="#" class="menu-estilo_item-botao">Chinês</a>
-                    <a href="#" class="menu-estilo_item-botao">Casa na Árvore</a>
-                    <a href="#" class="menu-estilo_item-botao">Subaquático</a>
+                    <a class="menu-estilo_item-botao btnEstilo">Steampunk</a>
+                    <a class="menu-estilo_item-botao btnEstilo">Clássico</a>
+                    <a class="menu-estilo_item-botao btnEstilo">Chinês</a>
+                    <a class="menu-estilo_item-botao btnEstilo">Casa na Árvore</a>
+                    <a class="menu-estilo_item-botao btnEstilo">Subaquático</a>
                 </li>
             </ul>
-        </nav>
+        </nav>                
 
         <nav id="menu-lateral">
         <ul class="menu-lateral-lista">
@@ -106,7 +106,7 @@
                 <a href="#" class="menu-lateral-botao">Seeds</a>
                 <a href="#" class="menu-lateral-botao bnt-exibir"><i class="fa-sharp fa-solid fa-chevron-right"></i> Todos os estilos</a>
                 <ul class="menu-lateral-submenu">
-                    <li class=""><a href="/aula4/teste.html" class="menu-lateral-submenu_item-botao">Medieval</a></li>
+                    <li class=""><a href="#" class="menu-lateral-submenu_item-botao" id="teste">Medieval</a></li>
                     <li class=""><a href="#" class="menu-lateral-submenu_item-botao">Natureza</a></li>
                     <li class=""><a href="#" class="menu-lateral-submenu_item-botao">Futurista</a></li>
                     <li class=""><a href="#" class="menu-lateral-submenu_item-botao">Russo</a></li>
@@ -149,7 +149,6 @@
             <section id="container-estilos">
                 <!-- Os estilos e seus card serão injetados aqui pelo JS -->
             </section>
-                <!-- <button id="bnt-vermais-cards" class="btn-voltar">VER MAIS <i class="fa-solid fa-arrow-right"></i> </button> -->
         </main>
 
         <footer class="rodape">
@@ -163,10 +162,11 @@
             </div>
         </footer>
 
-        <script src="/script/btnEstilo.js" defer></script>
+        <script src="/script/navEstilo.js" defer></script>
         <script type="module" src="/script/dadosCardsCarrossel.js" defer></script>
         <script src="/script/burguer.js" defer></script>
-        <script src="/script/bntTodosEstilosLista.js" defer></script>
+        <script src="/script/navTodosEstilosLista.js" defer></script>
+        <script type="module" src="/script/irParaVerMaisEstilo.js" defer></script>
 
         <script type="module" src="/script/dadosCardSection.js" defer></script>
         <script type="module" src="/script/dadosEstilos.js" defer></script>
