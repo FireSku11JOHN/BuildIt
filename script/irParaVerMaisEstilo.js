@@ -22,3 +22,17 @@ document.addEventListener("DOMContentLoaded", () => {
         }
     })  
 });
+
+document.addEventListener("DOMContentLoaded", () => {
+    document.getElementById('menu-lateral').addEventListener('click', (e) => {
+        const bnt = e.target.closest('.menu-lateral-submenu_item-botao');
+        if (bnt) {
+            console.log('Botão clicado:',bnt.textContent);
+            const tagEstilo = dadosEstilos.find(id => id.tag === normalizarTag(bnt.textContent));
+            if (tagEstilo) {
+                console.log('Tag do estilo:', tagEstilo.tag);
+                window.location.href = `/pages/todosCardsEstilos.html?estilo=${encodeURIComponent(tagEstilo.tag)}`;               
+            }
+        }
+    })  
+});
