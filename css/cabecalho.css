@@ -15,7 +15,7 @@
 }
 
 .logo {
-    min-width: 67px;
+    min-width: 79px;
 }
 
 .busca {
@@ -32,7 +32,7 @@
     padding: 10px;
     border-radius: 25px;
     font-family: var(--fonte-Karla);
-    font-size: var(--fonte-size-Pequena);
+    font-size: var(--fonte-size-Media);
     color: var(--laranja);
 }
 
