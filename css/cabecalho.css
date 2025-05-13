@@ -45,9 +45,17 @@
     display: none;
 }
 
+#container-buscar{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 
 .campo-busca {
     display: none;
+    /* grid-template-columns: 20px 1fr; */
+    /* grid-template-rows: 20px 1fr; */
     align-items: center;
     background-color: var(--cinza);
     border-radius: 25px;
@@ -75,6 +83,21 @@
 .campo-busca input::placeholder {
     color: white;
     opacity: 1;
+}
+
+#campo-resultado {
+    position: absolute;
+    top: 70px;
+    left: 50%; 
+    transform: translateX(-50%);
+    background-color: rgb(0, 8, 235);
+    width: 400px;
+    border-radius: 5px;
+    padding: 10px;
+    display: none;
+    z-index: 10;
+    color: white;
+    height: 80px;
 }
 
 

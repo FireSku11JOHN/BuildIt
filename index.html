@@ -43,11 +43,15 @@
             </ul>
         </nav>
 
-        <div class="campo-busca">
-            <a href=""><i class="fas fa-search"></i></a>
-            <input type="text" placeholder="Buscar por estilos">
+        <div id="container-buscar">
+            <div class="campo-busca">
+                <a id="btn-buscar"><i class="fas fa-search"></i></a>
+                <input id="input-buscar" type="text" placeholder="Buscar por palavra-chave">
+            
+            </div>
         </div>
-
+        
+        
         <label class="burger" for="menuToggle">
             <input type="checkbox" id="menuToggle">
             <span></span>
@@ -56,6 +60,12 @@
         </label>
 
         </header>
+        <div id="campo-resultado">
+            <ul id="lista-resultado">
+            </ul>
+        </div>
+
+        
 
         <nav id="menu-estilo" class="fechar">
             <ul class="menu-estilo-lista">
@@ -147,6 +157,9 @@
             <section id="container-estilos">
                 <!-- Os estilos e seus card serão injetados aqui pelo JS -->
             </section>
+            <button class="btn-voltar bnt-vermais-cards-todos" data-tag="${item.tag}">
+                VER TODOS ESTILOS <i class="fa-solid fa-arrow-right"></i>
+            </button>
         </main>
 
         <footer class="rodape">
@@ -165,6 +178,7 @@
         <script src="/script/burguer.js" defer></script>
         <script src="/script/navTodosEstilosLista.js" defer></script>
         <script type="module" src="/script/irParaVerMaisEstilo.js" defer></script>
+        <script type="module" src="/script/bntBuscar.js" defer></script>
 
         <script type="module" src="/script/dadosCardSection.js" defer></script>
         <script type="module" src="/script/dadosEstilos.js" defer></script>

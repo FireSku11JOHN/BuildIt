@@ -6,15 +6,17 @@
     max-width: 700px;
 }
 
+#container-estilos:last-child {
+    border-bottom: 1px solid #000;
+}
+
 .container-estilos-main {
     position: relative;
     top: 66px;
     padding-top: 30px;
     justify-content: center;
-    /* margin: 100px ; */
     margin: 0 auto;
     width: 85%;
-    /* max-width: 700px; */
 }
 
 .section-estilo{
@@ -108,7 +110,12 @@
 
 .btn-voltar-mais-cards{
     margin: 0px auto 20px auto;
-    /* align-self: center;s */
+}
+
+.bnt-vermais-cards-todos {
+    width: 250px;
+    margin: auto;
+    justify-self: start;
 }
 
 @media (max-width: 356px) {

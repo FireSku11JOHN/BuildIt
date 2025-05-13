@@ -36,13 +36,6 @@ dadosEstilos.forEach(item => {
           } else {
             return 6;
           }
-        // if (larguraTela >= 648 && larguraTela < 814) {
-        //     return 8;
-        // } else if (larguraTela >= 814) {
-        //     return 10;
-        // } else {
-        //     return 6;
-        // }
     }
 
     const larguraTela = widthDaTela(); // Chama a função para obter a largura da tela
