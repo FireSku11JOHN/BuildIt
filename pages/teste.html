@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Campo de Busca</title>
+    <style>
+        header {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 10px;
+            background-color: #f0f0f0;
+        }
+
+        #search-box {
+            display: none; /* Oculta o campo inicialmente */
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <button id="search-btn">🔍 Buscar</button>
+        <input type="text" id="search-box" placeholder="Digite sua busca...">
+    </header>
+
+    <script>
+        document.getElementById("search-btn").addEventListener("click", function() {
+            var searchBox = document.getElementById("search-box");
+            searchBox.style.display = searchBox.style.display === "none" ? "block" : "none";
+        });
+    </script>
+</body>
+</html>

@@ -1,6 +1,4 @@
 .cabecalho {
-    /* display: grid;
-    grid-template-columns: repeat(3, 1fr); */
     overflow: hidden;
     display: flex;
     justify-content: space-around;
@@ -54,11 +52,9 @@
 
 .campo-busca {
     display: none;
-    /* grid-template-columns: 20px 1fr; */
-    /* grid-template-rows: 20px 1fr; */
     align-items: center;
     background-color: var(--cinza);
-    border-radius: 25px;
+    border-radius: 20px;
     padding: 0 15px;
     height: 40px;
     width: 400px;
@@ -86,18 +82,65 @@
 }
 
 #campo-resultado {
-    position: absolute;
-    top: 70px;
-    left: 50%; 
-    transform: translateX(-50%);
-    background-color: rgb(0, 8, 235);
-    width: 400px;
-    border-radius: 5px;
-    padding: 10px;
+    position: fixed;
+    top: 62px;
+    background-color: var(--cinza);
+    width: 410px;
+    border-radius: 0 0 5px 5px;
+    padding: 0 10px 10px 10px;
     display: none;
-    z-index: 10;
+    flex-direction: column;
+    /* justify-content: center; */
     color: white;
-    height: 80px;
+    height: auto;
+    min-height: 10px;
+    max-height: 200px;
+    overflow-y: auto;
+
+}
+
+#campo-resultado::-webkit-scrollbar {
+    width: 6px;
+}
+
+#campo-resultado::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+#campo-resultado::-webkit-scrollbar-thumb {
+    background-color: rgba(0, 0, 0, 0.133);
+    border-radius: 10px;
+}
+
+#lista-resultado {
+    overflow-y: auto;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    /* height: auto; */
+    max-height: 200px;
+    background-color: var(--cinza);
+    border-top: 1px solid rgb(30, 30, 30);
+}
+
+.li-card-busca{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    list-style-type: none;
+    font-family: var(--fonte-Karla);
+    padding: 6px 0;
+
+}
+
+.li-card-busca:hover{
+    background-color: gray;
+    transition: 0.3s;
+}
+
+.img-card-busca{
+    width: 20px;
+    height: 17px;
 }
 
 
@@ -114,7 +157,8 @@
 
 @media (min-width: 1024px) {
     .cabecalho {
-        height: 86px;
+        height: auto;
+        min-height: 86px;
     }
 
     .campo-busca {
