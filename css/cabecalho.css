@@ -123,6 +123,13 @@
     border-top: 1px solid rgb(30, 30, 30);
 }
 
+#res-escrito {
+    width: 100%;
+    list-style-type: none;
+    font-family: var(--fonte-Karla);
+    padding: 6px 0;
+}
+
 .li-card-busca{
     display: flex;
     flex-direction: row;
@@ -133,7 +140,7 @@
 
 }
 
-.li-card-busca:hover{
+.li-card-busca:hover, #res-escrito:hover{
     background-color: gray;
     transition: 0.3s;
 }
