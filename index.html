@@ -15,6 +15,7 @@
     <link rel="stylesheet" href="css/menu-estilo.css">
     <link rel="stylesheet" href="css/input-busca-menu-lateral.css">
     <link rel="stylesheet" href="css/main-mais-populares.css">
+    <link rel="stylesheet" href="css/resultado-busca.css">
 
     <link rel="stylesheet" href="css/container-estilos.css">
 
@@ -46,8 +47,7 @@
         <div id="container-buscar">
             <div class="campo-busca">
                 <a id="btn-buscar"><i class="fas fa-search"></i></a>
-                <input id="input-buscar" type="text" placeholder="Buscar por palavra-chave" autocomplete="off">
-            
+                <input id="input-buscar" type="text" placeholder="Buscar por palavra-chave" autocomplete="off" data-input-buscar >
             </div>
         </div>
         
@@ -60,10 +60,8 @@
         </label>
 
         </header>
-        <div id="campo-resultado">
-            <ul id="lista-resultado">
-            </ul>
-        </div>
+
+        
 
         
 
@@ -142,6 +140,14 @@
             </li>
         </ul>
         </nav>
+
+        <div id="resultado-busca">
+            <ul id="lista-resultado" data-ul-resultado>
+                <li class="li-resultado-busca">
+                    <p>Teste de busca</p>
+                </li>
+            </ul>
+        </div>
         
         <main class="container-main">
             <section class="carrosel-mais-populares container">

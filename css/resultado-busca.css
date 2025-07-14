@@ -1,0 +1,20 @@
+#resultado-busca {
+    position: absolute;
+    top: 67px;
+    left: 53.5%; 
+    background-color: var(--cinza);
+    width: 407px;
+    border-radius: 5px;
+    padding: 10px;
+    z-index: 10;
+    color: white;
+    overflow-y: auto;
+    max-height: 300px;
+}
+
+.li-resultado-busca {
+  padding: 10px;
+  border-bottom: 1px solid #eee;
+  cursor: pointer;
+}
+
