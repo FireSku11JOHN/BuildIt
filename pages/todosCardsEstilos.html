@@ -15,6 +15,7 @@
     <link rel="stylesheet" href="/css/menu-estilo.css">
     <link rel="stylesheet" href="/css/input-busca-menu-lateral.css">
     <link rel="stylesheet" href="/css/main-mais-populares.css">
+    <link rel="stylesheet" href="/css/resultado-busca.css">
 
     <link rel="stylesheet" href="/css/container-estilos.css">
 
@@ -43,10 +44,12 @@
         </ul>
     </nav>
 
-    <div class="campo-busca">
-        <a href=""><i class="fas fa-search"></i></a>
-        <input type="text" placeholder="Buscar por estilos">
-    </div>
+    <div id="container-buscar">
+            <div class="campo-busca">
+                <a id="btn-buscar"><i class="fas fa-search"></i></a>
+                <input id="input-buscar" type="text" placeholder="Buscar por palavra-chave" autocomplete="off" data-input-buscar >
+            </div>
+        </div>
 
     <label class="burger" for="menuToggle">
         <input type="checkbox" id="menuToggle">
@@ -133,6 +136,12 @@
     </ul>
     </nav>
 
+    <div id="resultado-busca" data-div-resultado>
+        <ul id="lista-resultado" data-ul-resultado>
+            <!-- Os resultados serão injetados aqui pelo JS -->
+        </ul>
+    </div>
+
     <main class="container-estilos-main">
         <section class="container-estilos">
             <div id="pagina-estilo" class="section-estilo">
@@ -162,6 +171,7 @@
     <script src="/script/navEstilo.js" defer></script>
     <script src="/script/burguer.js" defer></script>
     <script type="module" src="/script/irParaVerMaisEstilo.js" defer></script>
+    <script type="module" src="/script/buscar.js" defer></script>
 
     <script type="module" src="/script/dadosEstilos.js" defer></script>
     <script type="module" src="/script/criarPaginaCard.js" defer></script>
