@@ -21,19 +21,20 @@ input.addEventListener('input', () => {
     const li = document.createElement('li');
     li.classList.add('li-resultado-busca');
     li.innerHTML = `
-      <p>Nenhum resultado encontrado para: <strong>${input.value}</strong></p>
+      <p>Nenhum resultado encontrado para: <span class="msg-erro-busca">${input.value}</span></p>
     `;
     ul.appendChild(li);
     // divResultado.style.padding = '10px';
     return;
   }
 
-  
+
   resultados.forEach(card => {
     const li = document.createElement('li');
     li.classList.add('li-resultado-busca');
     li.innerHTML = `
-      <p><strong>${card.titulo}</strong></p>
+      <p>${card.titulo}</p>
+      <img src="${card.imagem}" alt="${card.titulo}" class="img-resultado-busca">
     `;
 
     li.addEventListener('click', () => {

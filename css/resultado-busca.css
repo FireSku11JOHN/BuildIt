@@ -8,7 +8,6 @@
     border-radius: 5px;
     /* padding: 10px; */
     z-index: 10;
-    color: white;
     overflow-y: auto;
     max-height: 300px;
 }
@@ -18,8 +17,30 @@
 }
 
 .li-resultado-busca {
-  padding: 10px;
-  border-bottom: 1px solid #eee;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px;
   cursor: pointer;
+  font-family: var(--fonte-Kanit);
+  font-size: var(--fonte-size-Normal);
+  font-weight: 300;
+  border-radius: 8px;
+}
+
+.li-resultado-busca:hover {
+  background-color: #757474;
+}
+
+.img-resultado-busca {
+  width: 56px;
+  height: 29px;
+  object-fit: cover;
+  /* border-radius: 5px; */
+}
+
+.msg-erro-busca {
+  text-decoration: underline;
 }
 
