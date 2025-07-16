@@ -1,15 +1,20 @@
 #resultado-busca {
-    position: absolute;
+    display: none;
+    position: fixed;
     top: 67px;
     left: 53.5%; 
     background-color: var(--cinza);
     width: 407px;
     border-radius: 5px;
-    padding: 10px;
+    /* padding: 10px; */
     z-index: 10;
     color: white;
     overflow-y: auto;
     max-height: 300px;
+}
+
+#resultado-busca::-webkit-scrollbar{
+  display: none;
 }
 
 .li-resultado-busca {

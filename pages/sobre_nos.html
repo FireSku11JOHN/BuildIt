@@ -15,6 +15,7 @@
     <link rel="stylesheet" href="/css/menu-estilo.css">
     <link rel="stylesheet" href="/css/input-busca-menu-lateral.css">
     <link rel="stylesheet" href="/css/sobre-nos.css">
+    <link rel="stylesheet" href="/css/resultado-busca.css">
 
     <link rel="shortcut icon" href="/faviconnova.ico" type="image/x-icon">
     
@@ -42,9 +43,11 @@
             </ul>
         </nav>
 
-        <div class="campo-busca">
-            <a href=""><i class="fas fa-search"></i></a>
-            <input type="text" placeholder="Buscar por estilos">
+        <div id="container-buscar">
+            <div class="campo-busca">
+                <a id="btn-buscar"><i class="fas fa-search"></i></a>
+                <input id="input-buscar" type="text" placeholder="Buscar por palavra-chave" autocomplete="off" data-input-buscar >
+            </div>
         </div>
 
         <label class="burger" for="menuToggle">
@@ -131,6 +134,11 @@
             </li>
         </ul>
         </nav>
+        <div id="resultado-busca" data-div-resultado>
+            <ul id="lista-resultado" data-ul-resultado>
+                <!-- Os resultados serão injetados aqui pelo JS -->
+            </ul>
+        </div>
         
         <main class="container-sobre-nos">
             <div class="campo-texto-sobre-nos">
@@ -161,6 +169,7 @@
         <script src="/script/burguer.js" defer></script>
         <script src="/script/navTodosEstilosLista.js" defer></script>
         <script type="module" src="/script/irParaVerMaisEstilo.js" defer></script>
+        <script type="module" src="/script/buscar.js" defer></script>
 
         <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     </body>
