@@ -1,5 +1,5 @@
 import { dadosEstilos } from "./dadosEstilos.js";
-import { dadosCardSection } from "./dadosCardSection.js";
+import { dadosCard } from "./dadosCard.js";
 
 const containeEstilo = document.getElementById('container-estilos');
 
@@ -41,7 +41,7 @@ dadosEstilos.forEach(item => {
     const larguraTela = widthDaTela(); // Chama a função para obter a largura da tela
     let contador = 0; // Contador para limitar a exibição de cards
 
-    dadosCardSection.forEach(card => {
+    dadosCard.forEach(card => {
         if (item.tag === card.tag && contador < larguraTela) {
             const cardItem = document.createElement('li');
             cardItem.classList.add('card');
@@ -86,7 +86,7 @@ window.addEventListener('resize', () => {
       }
   
       let contador = 0;
-      dadosCardSection.forEach(card => {
+      dadosCard.forEach(card => {
         if (card.tag === item.tag && contador < limite) {
           const cardItem = document.createElement('li');
           cardItem.classList.add('card');
@@ -128,7 +128,7 @@ document.getElementById('container-estilos').addEventListener('click', function 
         const cardElement = botaoTutorial.closest('.card');
         const titulo = cardElement.querySelector('.titulo-card').textContent;
 
-        const cardDados = dadosCardSection.find(card => card.titulo === titulo);
+        const cardDados = dadosCard.find(card => card.titulo === titulo);
         if (cardDados) {
             criarPaginaCard(cardDados);
         } else {

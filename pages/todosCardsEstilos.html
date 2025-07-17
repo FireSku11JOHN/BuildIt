@@ -182,7 +182,7 @@
     <script type="module" defer> 
         // Função para abrir a página card.html a partir da página todosCardsEstilos.html 
 
-        import { dadosCardSection } from "/script/dadosCardSection.js";
+        import { dadosCard } from "/script/dadosCard.js";
         import { criarPaginaCard } from '/script/criarPaginaCard.js';
 
         document.addEventListener('click', function(e) {
@@ -191,7 +191,7 @@
                 const cardElement = botaoTutorial.closest('.card');
                 const titulo = cardElement.querySelector('.titulo-card').textContent;
 
-                const cardDados = dadosCardSection.find(card => card.titulo === titulo);
+                const cardDados = dadosCard.find(card => card.titulo === titulo);
                 if (cardDados) {
                     localStorage.setItem('cardSelecionado', JSON.stringify(cardDados));
                     window.location.href = "card.html"; 

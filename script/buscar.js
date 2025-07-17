@@ -1,4 +1,4 @@
-import { dadosCardSection } from "./dadosCardSection.js";
+import { dadosCard } from "./dadosCard.js";
 import { criarPaginaCard } from './criarPaginaCard.js';
 
 const input = document.querySelector('[data-input-buscar]');
@@ -11,7 +11,7 @@ input.addEventListener('input', () => {
   divResultado.style.display = 'block'
 
 
-  const resultados = dadosCardSection.filter(item =>
+  const resultados = dadosCard.filter(item =>
     item.titulo.toLowerCase().includes(termo) ||
     item.descricao.toLowerCase().includes(termo) ||
     item.tag.toLowerCase().includes(termo)
@@ -38,7 +38,7 @@ input.addEventListener('input', () => {
     `;
 
     li.addEventListener('click', () => {
-      criarPaginaCard(card); // ✅ Redireciona para card.html
+      criarPaginaCard(card); //  Redireciona para card.html
     });
 
     ul.appendChild(li);

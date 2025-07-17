@@ -1,4 +1,4 @@
-export const dadosCardSection = [
+export const dadosCard = [
     // Moderna
     { 
         titulo: "Casa Moderna Luxuosa",

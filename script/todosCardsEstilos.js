@@ -1,4 +1,4 @@
-import { dadosCardSection } from "./dadosCardSection.js";
+import { dadosCard } from "./dadosCard.js";
 
 const params = new URLSearchParams(window.location.search);
 const tagEstilo = params.get('estilo');
@@ -10,7 +10,7 @@ const lista = document.getElementById('lista-de-cards');
 titulo.textContent = tagEstilo.charAt(0).toUpperCase() + tagEstilo.slice(1);
 
 // Filtra e exibe os cards da tag correspondente
-dadosCardSection.forEach(card => {
+dadosCard.forEach(card => {
   if (card.tag === tagEstilo) {
     const cardItem = document.createElement('li');
     cardItem.classList.add('card');
