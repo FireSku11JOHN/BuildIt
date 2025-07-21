@@ -14,15 +14,14 @@
     <link rel="stylesheet" href="/css/menu-lateral.css">
     <link rel="stylesheet" href="/css/menu-estilo.css">
     <link rel="stylesheet" href="/css/input-busca-menu-lateral.css">
-    <link rel="stylesheet" href="/css/sobre-nos.css">
     <link rel="stylesheet" href="/css/busca-cabecalho.css">
+    <link rel="stylesheet" href="/css/sobre-nos.css">
 
     <link rel="shortcut icon" href="/faviconnova.ico" type="image/x-icon">
-    
 </head>
-    <body>
-        <header class="cabecalho">
-            <a href="/in" class="container_logo">
+<body>
+    <header class="cabecalho">
+            <a href="/" class="container_logo">
                 <img class="logo"
                 src="/src/logo_buildit-mobile.svg" 
                 sizes="( max-width: 768px ) 100vw, 1280px"
@@ -33,9 +32,9 @@
         <nav id="menu">
             <ul class="botoes">
                 <li>
-                    <a href="/index.html" class="botoes-item">HOME</a></li>
+                    <a href="/" class="botoes-item">HOME</a></li>
                 <li>
-                    <a href="sobre_nos.html" class="botoes-item" >SOBRE</a>
+                    <a href="pages/sobre_nos.html" class="botoes-item">SOBRE</a>
                 </li>
                 <li>
                     <button class="botoes-item btn-estilo">ESTILOS</button>
@@ -47,17 +46,17 @@
             <div class="campo-busca">
                 <a id="btn-buscar"><i class="fas fa-search"></i></a>
                 <input id="input-buscar" type="text" placeholder="Buscar por palavra-chave" autocomplete="off" data-input-buscar >
+                <a id="btn-limpar" data-btn-limpar><i class="fa-solid fa-xmark"></i></a>
             </div>
         </div>
-
+        
         <label class="burger" for="menuToggle">
             <input type="checkbox" id="menuToggle">
             <span></span>
             <span></span>
             <span></span>
         </label>
-
-        </header>
+    </header>
 
         <nav id="menu-estilo" class="fechar">
             <ul class="menu-estilo-lista">
@@ -169,7 +168,9 @@
         <script src="/script/burguer.js" defer></script>
         <script src="/script/navTodosEstilosLista.js" defer></script>
         <script type="module" src="/script/irParaVerMaisEstilo.js" defer></script>
+
         <script type="module" src="/script/buscar.js" defer></script>
+        <script src="/script/btnLimparBusca.js" defer></script>
 
         <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     </body>
