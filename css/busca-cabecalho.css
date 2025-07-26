@@ -7,7 +7,7 @@
 }
 
 .campo-busca {
-    /* display: none; */
+    display: none;
     /* grid-template-columns: 20px 1fr; */
     /* grid-template-rows: 20px 1fr; */
     align-items: center;
@@ -85,3 +85,10 @@
   text-decoration: underline;
 }
 
+@media (min-width: 1024px) {
+
+    .campo-busca {
+        display: flex;
+    }
+    
+}

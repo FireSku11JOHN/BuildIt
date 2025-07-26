@@ -45,10 +45,6 @@
     display: none;
 }
 
-
-
-
-
 @media (min-width: 768px) {
     .botoes-item{
         font-size: var(--fonte-size-Normal);
@@ -57,18 +53,12 @@
     .btn-estilo {
         display: block;
     }
-
 }
 
 @media (min-width: 1024px) {
     .cabecalho {
         height: 86px;
     }
-
-    .campo-busca {
-        display: flex;
-    }
-    
 }
 
 
