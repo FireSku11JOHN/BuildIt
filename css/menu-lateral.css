@@ -27,14 +27,14 @@
     padding: 1.5rem 1rem 0.5rem 1rem;
 }
 
-.menu-lateral-lista_item {
+.div-itens {
     display: flex;
     flex-direction: column;
     width: 100%;
     height: 100%;
 }
 
-.menu-lateral-lista_item > a {
+.div-itens > a {
     height: auto;
     margin-bottom: 1rem;
     border-bottom: 1px solid var(--preto);
@@ -66,13 +66,12 @@
 .menu-lateral-submenu > li {
     margin: 10px;
     width: 100%;
-
 }
 
 .menu-lateral-submenu_item-botao{
     font-family: var(--fonte-Kanit);
     font-weight: 300;
-    font-size: 12px;
+    font-size: var(--fonte-size-Media);
 }
 
 .menu-lateral-submenu_item-botao:hover {

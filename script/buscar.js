@@ -6,45 +6,44 @@ const ul = document.querySelector('[data-ul-resultado]');
 const divResultado = document.querySelector('[data-div-resultado]');
 
 input.addEventListener('input', () => {
-  const termo = input.value.toLowerCase().trim();
-  ul.innerHTML = ''; // Limpa resultados antigos
-  divResultado.style.display = 'block'
+    const termo = input.value.toLowerCase().trim();
+    ul.innerHTML = ''; // Limpa resultados antigos
+    divResultado.style.display = 'block'
+
+    const resultados = dadosCard.filter(item =>
+      item.titulo.toLowerCase().includes(termo) ||
+      item.descricao.toLowerCase().includes(termo) ||
+      item.tag.toLowerCase().includes(termo)
+    );
+
+    if (resultados.length === 0) {
+      const li = document.createElement('li');
+      li.classList.add('li-resultado-busca');
+      li.innerHTML = `
+        <p>Nenhum resultado encontrado para: <span class="msg-erro-busca">${input.value}</span></p>
+      `;
+      ul.appendChild(li);
+      // divResultado.style.padding = '10px';
+      return;
+    }
 
 
-  const resultados = dadosCard.filter(item =>
-    item.titulo.toLowerCase().includes(termo) ||
-    item.descricao.toLowerCase().includes(termo) ||
-    item.tag.toLowerCase().includes(termo)
-  );
+    resultados.forEach(card => {
+      const li = document.createElement('li');
+      li.classList.add('li-resultado-busca');
+      li.innerHTML = `
+        <p>${card.titulo}</p>
+        <img src="${card.imagem}" alt="${card.titulo}" class="img-resultado-busca">
+      `;
 
-  if (resultados.length === 0) {
-    const li = document.createElement('li');
-    li.classList.add('li-resultado-busca');
-    li.innerHTML = `
-      <p>Nenhum resultado encontrado para: <span class="msg-erro-busca">${input.value}</span></p>
-    `;
-    ul.appendChild(li);
-    // divResultado.style.padding = '10px';
-    return;
-  }
+      li.addEventListener('click', () => {
+        criarPaginaCard(card); //  Redireciona para card.html
+      });
 
+      ul.appendChild(li);
 
-  resultados.forEach(card => {
-    const li = document.createElement('li');
-    li.classList.add('li-resultado-busca');
-    li.innerHTML = `
-      <p>${card.titulo}</p>
-      <img src="${card.imagem}" alt="${card.titulo}" class="img-resultado-busca">
-    `;
-
-    li.addEventListener('click', () => {
-      criarPaginaCard(card); //  Redireciona para card.html
+      divResultado.style.padding = '10px';
     });
-
-    ul.appendChild(li);
-
-    divResultado.style.padding = '10px';
-  });
 });
 
 
