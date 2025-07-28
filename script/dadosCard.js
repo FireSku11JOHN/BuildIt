@@ -28,16 +28,6 @@ export const dadosCard = [
         urlCanal: "https://www.youtube.com/@MANYACRAFT",
         tag: "moderna"
     }
-    ,    
-    {
-        titulo: "Casa Moderna com Fachada Minimalista",
-        imagem: "https://img.youtube.com/vi/dStdhePW_bY/hqdefault.jpg",
-        url: "https://www.youtube.com/watch?v=dStdhePW_bY",
-        descricao: "Explore uma casa moderna no Minecraft com uma fachada minimalista e design contemporâneo. Este tutorial detalhado ensina passo a passo como construir uma residência elegante e funcional, perfeita para quem aprecia simplicidade e sofisticação no jogo.",
-        nomeCanal: "MANYACRAFT",
-        urlCanal: "https://www.youtube.com/@MANYACRAFT",
-        tag: "moderna"
-    }
     ,
     {
         titulo: "Mansão Moderna",
