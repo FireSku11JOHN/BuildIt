@@ -1,11 +1,11 @@
 export const dadosEstilos = [
     { 
-        nome: "Moderna",
-        tag: "moderna"
-    },
-    { 
         nome: "Medieval",
         tag: "medieval"
+    },
+    { 
+        nome: "Moderna",
+        tag: "moderna"
     },
     { 
         nome: "Fantasia",
@@ -20,7 +20,68 @@ export const dadosEstilos = [
         tag: "rustico"
     },
     { 
-        nome: "Natural",
-        tag: "natural"
-    }
+        nome: "Natureza",
+        tag: "natureza"
+    },
+    { 
+        nome: "Fazenda",
+        tag: "fazenda"
+    },
+    { 
+        nome: "Clássico",
+        tag: "classico"
+    },
+    { 
+        nome: "Futurista",
+        tag: "futurista"
+    },
+    { 
+        nome: "Japonês",
+        tag: "japones"
+    },
+    { 
+        nome: "Chinês",
+        tag: "chines"
+    },
+    { 
+        nome: "Russo",
+        tag: "russo"
+    },
+    { 
+        nome: "Deserto",
+        tag: "deserto"
+    },
+    { 
+        nome: "Casa na Árvore",
+        tag: "casa-na-arvore"
+    },
+    { 
+        nome: "Base Subterrânea",
+        tag: "base-subterranea"
+    },
+    { 
+        nome: "The End",
+        tag: "the-end"
+    },
+    { 
+        nome: "Nether",
+        tag: "nether"
+    },
+    { 
+        nome: "Subaquático",
+        tag: "subaquatico"
+    },
+    { 
+        nome: "Mediterrâneo",
+        tag: "mediterraneo"
+    },
+    { 
+        nome: "Gótico",
+        tag: "gotico"
+    },
+    { 
+        nome: "Industrial",
+        tag: "Industrial"
+    },
+    
 ]
