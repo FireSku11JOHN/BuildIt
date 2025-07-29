@@ -1,9 +1,9 @@
 import { dadosEstilos } from './dadosEstilos.js';
 
-export function criarSecoesEstilo() {
+export function criarSecoesEstilo(estilos) {
     const containerEstilo = document.getElementById('container-estilos');
 
-    dadosEstilos.forEach(item => {
+    estilos.forEach(item => {
         const divDoEstilo = document.createElement('div');
         divDoEstilo.classList.add('section-estilos');
         divDoEstilo.innerHTML = `
@@ -19,4 +19,4 @@ export function criarSecoesEstilo() {
         `;
         containerEstilo.appendChild(divDoEstilo);
     });
-}
+    }
