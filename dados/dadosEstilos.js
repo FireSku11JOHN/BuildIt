@@ -1,26 +1,26 @@
 export const dadosEstilos = [
+    // { 
+    //     nome: "Medieval",
+    //     tag: "medieval"
+    // },
+    // { 
+    //     nome: "Moderna",
+    //     tag: "moderna"
+    // },
+    // { 
+    //     nome: "Fantasia",
+    //     tag: "fantasia"
+    // },
+    // { 
+    //     nome: "Steampunk",
+    //     tag: "steampunk"
+    // },
+    // { 
+    //     nome: "Rústico",
+    //     tag: "rustico"
+    // },
     { 
-        nome: "Medieval",
-        tag: "medieval"
-    },
-    { 
-        nome: "Moderna",
-        tag: "moderna"
-    },
-    { 
-        nome: "Fantasia",
-        tag: "fantasia"
-    },
-    { 
-        nome: "Steampunk",
-        tag: "steampunk"
-    },
-    { 
-        nome: "Rústico",
-        tag: "rustico"
-    },
-    { 
-        nome: "Natureza",
+        nome: "Natureza", //remover
         tag: "natureza"
     },
     { 

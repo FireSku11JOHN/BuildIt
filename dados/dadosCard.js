@@ -422,13 +422,96 @@ export const dadosCard = [
         nomeCanal: "Lex The Builder",
         urlCanal: "https://www.youtube.com/@LexTheBuilder",
         tag: "rustico"
-    }
-    
-    
-    
-        
-    
-    
-    
-    
+    },
+    {
+        titulo: "Celeiro Estético para Fazenda em Minecraft",
+        imagem: "https://img.youtube.com/vi/wfDLc0PGN7M/hqdefault.jpg",
+        url: "https://www.youtube.com/watch?v=wfDLc0PGN7M",
+        descricao: "Quer construir um celeiro lindo e funcional no Minecraft? Este tutorial mostra passo a passo como montar um animal barn estético usando o incrível resource pack Mizuno’s 16. Ideal para quem busca uma construção charmosa com controle de animais e estilo visual impecável. Um refúgio perfeito para sua fazenda!",
+        nomeCanal: "Croissant Cat",
+        urlCanal: "https://www.youtube.com/@croissantcat",
+        tag: "fazenda"
+    },
+    {
+        titulo: "Fazenda Eficiente com Coletas Automáticas",
+        imagem: "https://img.youtube.com/vi/AJTDLEtcs28/hqdefault.jpg",
+        url: "https://www.youtube.com/watch?v=AJTDLEtcs28",
+        descricao: "Quer uma fazenda automatizada e prática no Minecraft? Este tutorial ensina como montar um sistema de produção automático, otimizando a coleta de recursos com pouca manutenção. Ideal pra quem quer produtividade sem esforço e um visual funcional. Seu cantinho rural mais eficiente está logo aí!",
+        nomeCanal: "Croissant Cat",
+        urlCanal: "https://www.youtube.com/@croissantcat",
+        tag: "fazenda"
+    },
+{
+    titulo: "Plantação Para Fazebdas Simples",
+    imagem: "https://img.youtube.com/vi/iGCXTFFvH1c/hqdefault.jpg",
+    url: "https://www.youtube.com/watch?v=iGCXTFFvH1c",
+    descricao: "Transforme sua fazenda no Minecraft em uma máquina produtiva com este tutorial prático! Aprenda a usar redstone simples para automatizar plantações ou criação de animais. Ideal para quem quer colher sem esforço e com estilo. Uma solução inteligente para sua base agrícola.",
+    nomeCanal: "MCram",
+    urlCanal: "https://www.youtube.com/@MCram",
+    tag: "fazenda"
+},
+{
+    titulo: "Estufa Moderna para Cultivo Seguro no Minecraft",
+    imagem: "https://img.youtube.com/vi/gTYuVwm1QUs/hqdefault.jpg",
+    url: "https://www.youtube.com/watch?v=gTYuVwm1QUs",
+    descricao: "Que tal uma estufa moderna e eficiente no Minecraft? Este tutorial ensina a construir uma estrutura de vidro com irrigação controlada, iluminação e ambiente protegido para suas plantações. Perfeita para crescer plantas tropicais ou delicadas sem depender do bioma. Ideal para deixar sua fazenda mais versátil e estilosa!",
+    nomeCanal: "https://www.youtube.com/@KoalaBuilds",
+    urlCanal: "KoalaBuilds",
+    tag: "fazenda"
+}
+,{
+    titulo: "Estufa Elegante para Fazenda Minecraft",
+    imagem: "https://img.youtube.com/vi/CWCKJyaHB8A/hqdefault.jpg",
+    url: "https://www.youtube.com/watch?v=CWCKJyaHB8A",
+    descricao: "Aprenda a criar uma estufa elegante no Minecraft ideal para cultivar plantas delicadas em ambiente controlado. Esse tutorial ensina um design com estrutura de vidro, ventilação e organização interna para suas colheitas prosperarem. Uma construção que combina funcionalidade e beleza na sua fazenda!",
+    nomeCanal: "One Team",
+    urlCanal: "https://www.youtube.com/@OneTeam1",
+    tag: "fazenda"
+}
+,{
+    titulo: "Fazenda Compacta com Apiário e Estábulos",
+    imagem: "https://img.youtube.com/vi/5k2eBQuoBUk/hqdefault.jpg",
+    url: "https://www.youtube.com/watch?v=5k2eBQuoBUk",
+    descricao: "Quer montar uma fazenda completa e funcional no Minecraft em pouco espaço? Neste tutorial, você vai aprender a criar um pequeno rancho com estábulos, apiário, pocilga e até um lago decorativo. Perfeito para quem precisa otimizar recursos sem perder estilo ou produtividade!",
+    nomeCanal: "armun",
+    urlCanal: "https://www.youtube.com/@armun",
+    tag: "fazenda"
+}
+,{
+    titulo: "Celeiro Rústico com Estilo para Fazenda Minecraft",
+    imagem: "https://img.youtube.com/vi/2DkYyFHW6YU/hqdefault.jpg",
+    url: "https://www.youtube.com/watch?v=2DkYyFHW6YU",
+    descricao: "Este tutorial mostra como construir um celeiro rústico e funcional no Minecraft, perfeito para organizar animais ou armazenar suprimentos. Com design simples e eficiente, é uma construção ideal para quem quer dar um toque rural e prático na sua fazenda.",
+    nomeCanal: "Foxel",
+    urlCanal: "https://www.youtube.com/@Foxel-mc",
+    tag: "fazenda"
+}
+,{
+    titulo: "Estufa Rústica em Madeira para Fazenda Minecraft",
+    imagem: "https://img.youtube.com/vi/ThCGM8fFCCw/hqdefault.jpg",
+    url: "https://www.youtube.com/watch?v=ThCGM8fFCCw",
+    descricao: "Neste tutorial, você vai aprender a montar uma estufa com estrutura de madeira, vidro e organização interna, ideal para cultivar plantas com mais controle e estilo. Perfeita para combinar o rústico com a produção agrícola, mantendo suas culturas protegidas e visualmente harmônicas com sua fazenda.",
+    nomeCanal: "Lex The Builder",
+    urlCanal: "https://www.youtube.com/@LexTheBuilder",
+    tag: "fazenda"
+}
+,{
+    titulo: "Estábulo Fácil para Cavalos no Minecraft",
+    imagem: "https://img.youtube.com/vi/lXd7pF0LGrU/hqdefault.jpg",
+    url: "https://www.youtube.com/watch?v=lXd7pF0LGrU",
+    descricao: "Neste tutorial simples e direto, você aprende a construir um estábulo funcional e prático para seus cavalos no Minecraft. Com estrutura organizada, piso reforçado e espaço amplo, é ideal para manter seus animais seguros com estilo. Perfeito para qualquer fazenda que busca praticidade e charme!",
+    nomeCanal: "Gorillo",
+    urlCanal: "https://www.youtube.com/@Gorillo",
+    tag: "fazenda"
+}
+,{
+    titulo: "Estufa Estilo Fazenda com Design Rústico",
+    imagem: "https://img.youtube.com/vi/tIDW0-Gagtw/hqdefault.jpg",
+    url: "https://www.youtube.com/watch?v=tIDW0-Gagtw",
+    descricao: "Aprenda a construir uma estufa rústica no Minecraft, ideal para cultivo de plantas em um ambiente controlado. Este tutorial detalha cada etapa para criar uma estrutura funcional e charmosa para sua fazenda.",
+    nomeCanal: "Goldrobin",
+    urlCanal: "https://www.youtube.com/@Goldrobin",
+    tag: "fazenda"
+}
+,
 ];
