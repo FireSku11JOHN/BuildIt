@@ -16,7 +16,7 @@ function limparEstilos() {
 // Função para atualizar botões
 function atualizarBotoes() {
     botaoVerTodos.style.display = exibindoTodos ? 'none' : 'inline-block';
-    botaoVerMenos.style.display = exibindoTodos ? 'inline-block' : 'none';
+    botaoVerMenos.style.display = exibindoTodos ? 'flex' : 'none';
 }
 
 // Botão "VER TODOS ESTILOS"
@@ -33,7 +33,7 @@ botaoVerTodos.addEventListener('click', () => {
 
 // Botão "VER MENOS ESTILOS"
 const botaoVerMenos = document.createElement('button');
-botaoVerMenos.classList.add('btn-voltar', 'bnt-vermenos-cards-todos');
+botaoVerMenos.classList.add('btn-voltar', 'bnt-vermais-cards-todos');
 botaoVerMenos.innerHTML = `VER MENOS ESTILOS <i class="fa-solid fa-arrow-up"></i>`;
 botaoVerMenos.style.display = 'none'; // inicia escondido
 botaoVerMenos.addEventListener('click', () => {
