@@ -1,4 +1,4 @@
-import { dadosEstilos } from './dadosEstilos.js';
+import { dadosEstilos } from '../dados/dadosEstilos.js';
 
 export function criarSecoesEstilo(estilos) {
     const containerEstilo = document.getElementById('container-estilos');

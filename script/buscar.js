@@ -1,4 +1,4 @@
-import { dadosCard } from "./dadosCard.js";
+import { dadosCard } from "../dados/dadosCard.js";
 import { criarPaginaCard } from './criarPaginaCard.js';
 
 const input = document.querySelector('[data-input-buscar]');

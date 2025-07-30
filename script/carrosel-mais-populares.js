@@ -1,4 +1,4 @@
-import { dadosCardsCarrossel } from './dadosCardsCarrossel.js';
+import { dadosCardsCarrossel } from '../dados/dadosCardsCarrossel.js';
 import { criarPaginaCard } from './criarPaginaCard.js';
 
 const container = document.getElementById('carroselContainer');

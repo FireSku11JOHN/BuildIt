@@ -1,6 +1,6 @@
 // Ação do botão "TUTORIAL"
 import { criarPaginaCard } from './criarPaginaCard.js';
-import { dadosCard } from "./dadosCard.js";
+import { dadosCard } from "../dados/dadosCard.js";
 
 document.getElementById('container-estilos').addEventListener('click', function (e) {
     const botaoTutorial = e.target.closest('.bnt-tutorial-card');

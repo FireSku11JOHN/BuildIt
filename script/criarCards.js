@@ -1,5 +1,5 @@
-import { dadosCard } from './dadosCard.js';
-import { dadosEstilos } from './dadosEstilos.js';
+import { dadosCard } from '../dados/dadosCard.js';
+import { dadosEstilos } from '../dados/dadosEstilos.js';
 import { obterLimitePorLargura } from './utils.js';
 
 export function renderizarCardsPorEstilo(tag, container, limite) {

@@ -1,4 +1,4 @@
-import { dadosEstilos } from './dadosEstilos.js';
+import { dadosEstilos } from '../dados/dadosEstilos.js';
 import { criarSecoesEstilo } from './layout.js';
 import { inicializarCards } from './criarCards.js';
 import { observarRedimensionamentoTela } from './resize.js';
