@@ -513,5 +513,95 @@ export const dadosCard = [
     urlCanal: "https://www.youtube.com/@Goldrobin",
     tag: "fazenda"
 }
-,
+,{
+    titulo: "Casa Sakura Japonês",
+    imagem: "https://img.youtube.com/vi/EARYB4RuB5Q/hqdefault.jpg",
+    url: "https://www.youtube.com/watch?v=EARYB4RuB5Q",
+    descricao: "Quer construir uma casa tradicional japonesa com cerejeiras no Minecraft? Este tutorial mostra um design elegante inspirado na arquitetura japonesa, com telhados curvos, madeira trabalhada e detalhes sakura. Perfeito para quem busca tranquilidade estética e estilo oriental no seu mundo!",
+    nomeCanal: "Stevler",
+    urlCanal: "https://www.youtube.com/@Stevler",
+    tag: "japones"
+}
+,{
+    titulo: "Casa Japonesa Compacta Estilo Tradicional",
+    imagem: "https://img.youtube.com/vi/TZuPoWSh9Ns/hqdefault.jpg",
+    url: "https://www.youtube.com/watch?v=TZuPoWSh9Ns",
+    descricao: "Aprenda a construir uma casa japonesa pequena e elegante no Minecraft, perfeita para um refúgio estilo tradicional. O tutorial mostra passo a passo o uso de madeira escura, telhado estilizado e jardim minimalista. Ideal para quem busca um visual japonês autêntico em espaços compactos!",
+    nomeCanal: "https://www.youtube.com/@Ayvocado",
+    urlCanal: "https://www.youtube.com/@Ayvocado",
+    tag: "japones"
+}
+,{
+    titulo: "Casa Japonesa Pequena Estilo Tradicional",
+    imagem: "https://img.youtube.com/vi/kFfpnvg3l94/hqdefault.jpg",
+    url: "https://www.youtube.com/watch?v=kFfpnvg3l94",
+    descricao: "Neste tutorial, você vai aprender a construir uma casinha japonesa compacta e estilosa no Minecraft, com madeira escura, telhado oriental e detalhes minimalistas. Ideal para quem busca incorporar a estética japonesa com simplicidade e elegância!",
+    nomeCanal: "BlueBits",
+    urlCanal: "https://www.youtube.com/@BlueBits_YT",
+    tag: "japones"
+}
+,{
+    titulo: "Pagode Japonês Elegante no Minecraft",
+    imagem: "https://img.youtube.com/vi/Dl-Mwskyuvs/hqdefault.jpg",
+    url: "https://www.youtube.com/watch?v=Dl-Mwskyuvs",
+    descricao: "Este tutorial ensina como construir um pagode japonês sofisticado no Minecraft, com madeira escura, prismarina e detalhes arquitetônicos inspirados na estética oriental. Ideal para dar um toque tradicional e imponente à sua build japonesa!",
+    nomeCanal: "BlueBits",
+    urlCanal: "https://www.youtube.com/@BlueBits_YT",
+    tag: "japones"
+}
+,{
+    titulo: "Templo Japonês Tradicional no Minecraft",
+    imagem: "https://img.youtube.com/vi/N_Hvq3W0UnE/hqdefault.jpg",
+    url: "https://www.youtube.com/watch?v=N_Hvq3W0UnE",
+    descricao: "Aprenda a construir um templo japonês inspirador no Minecraft, com estrutura tradicional e detalhes minimalistas. Um design voltado para contemplação, com linhas limpas e estética autêntica do estilo nipônico. Ideal para incorporar serenidade e tradição na sua build!",
+    nomeCanal: "BlueBits",
+    urlCanal: "https://www.youtube.com/@BlueBits_YT",
+    tag: "japones"
+}
+,{
+    titulo: "Mansão Japonesa Elegante no Minecraft",
+    imagem: "https://img.youtube.com/vi/8Taraji966w/hqdefault.jpg",
+    url: "https://www.youtube.com/watch?v=8Taraji966w",
+    descricao: "Aprenda a construir uma mansão estilo japonês no Minecraft com este tutorial detalhado. Este projeto combina estruturas tradicionais, paisagismo inspirado em jardins orientais e uso refinado de madeira escura. Perfeito para quem busca criar uma build sofisticada com estética nipônica!",
+    nomeCanal: "Julious",
+    urlCanal: "https://www.youtube.com/@JuliousMinecraft",
+    tag: "japones"
+}
+,{
+    titulo: "Casa Japonesa Tranquila",
+    imagem: "https://img.youtube.com/vi/o9JF1lldYTc/hqdefault.jpg",
+    url: "https://www.youtube.com/watch?v=o9JF1lldYTc",
+    descricao: "Siga este tutorial passo a passo para construir uma casa japonesa autêntica no Minecraft, com detalhes de telhado curvo, madeira trabalhada e varanda tradicional. Um projeto que transmite serenidade, elegância e estética oriental para sua build.",
+    nomeCanal: "Nanaroid",
+    urlCanal: "https://www.youtube.com/@nanaroid1",
+    tag: "japones"
+}
+,{
+    titulo: "Casa Japonesa de Sobrevivência",
+    imagem: "https://img.youtube.com/vi/yhuS0Iz7jBw/hqdefault.jpg",
+    url: "https://www.youtube.com/watch?v=yhuS0Iz7jBw",
+    descricao: "Aprenda a construir uma casa japonesa simples e funcional no modo sobrevivência do Minecraft. Com design tradicional, dois andares e varanda envolvente, esse tutorial ensina cada etapa para garantir estilo e praticidade em ambientes escuros ou biomas diversos. Ideal para quem quer charme nipônico e usabilidade no dia a dia!",
+    nomeCanal: "Hakdow",
+    urlCanal: "https://www.youtube.com/@hakdow8341",
+    tag: "japones"
+}
+,{
+    titulo: "Casa Japonesa à Beira do Lago",
+    imagem: "https://img.youtube.com/vi/sIy1f1O_Cbs/hqdefault.jpg",
+    url: "https://www.youtube.com/watch?v=sIy1f1O_Cbs",
+    descricao: "Neste tutorial, aprenda a construir uma encantadora casa japonesa sobre as margens de um lago no Minecraft. Com estrutura elegante, varanda sobre a água, e uso de madeira clara e escura contrastantes, é ideal para criar um refúgio sereno com estilo oriental no seu mundo.",
+    nomeCanal: "Hakdow",
+    urlCanal: "https://www.youtube.com/@hakdow8341",
+    tag: "japones"
+}
+,{
+    titulo: "Grande Casa Japonesa de Sobrevivência",
+    imagem: "https://img.youtube.com/vi/zuy2UJ1JyAc/hqdefault.jpg",
+    url: "https://www.youtube.com/watch?v=zuy2UJ1JyAc",
+    descricao: "Neste tutorial, você aprende a construir uma grande casa japonesa em estilo tradicional no Minecraft, ideal para o modo sobrevivência. Com design formal, telhado elegante e estrutura imponente, é perfeita para quem quer uma base ampla com estética oriental marcante.",
+    nomeCanal: "Klifenn",
+    urlCanal: "https://www.youtube.com/@Klifenn",
+    tag: "japones"
+}
+
 ];
