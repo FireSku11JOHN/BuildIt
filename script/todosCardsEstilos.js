@@ -1,4 +1,4 @@
-import { dadosCard } from "./dadosCard.js";
+import { dadosCard } from "../dados/dadosCard.js";
 
 const params = new URLSearchParams(window.location.search);
 const tagEstilo = params.get('estilo');

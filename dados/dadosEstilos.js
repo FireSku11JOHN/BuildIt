@@ -1,52 +1,52 @@
 export const dadosEstilos = [
-    // { 
-    //     nome: "Medieval",
-    //     tag: "medieval"
-    // },
-    // { 
-    //     nome: "Moderna",
-    //     tag: "moderna"
-    // },
-    // { 
-    //     nome: "Fantasia",
-    //     tag: "fantasia"
-    // },
-    // { 
-    //     nome: "Steampunk",
-    //     tag: "steampunk"
-    // },
-    // { 
-    //     nome: "Rústico",
-    //     tag: "rustico"
-    // },
     { 
-        nome: "Natureza", //remover
-        tag: "natureza"
+        nome: "Medieval",
+        tag: "medieval"
     },
+    { 
+        nome: "Moderna",
+        tag: "moderna"
+    },
+    { 
+        nome: "Fantasia",
+        tag: "fantasia"
+    },
+    { 
+        nome: "Steampunk",
+        tag: "steampunk"
+    },
+    { 
+        nome: "Rústico",
+        tag: "rustico"
+    },
+    // { 
+    //     nome: "Natureza", //remover
+    //     tag: "natureza"
+    // },
     { 
         nome: "Fazenda",
         tag: "fazenda"
     },
-    { 
-        nome: "Clássico", // remover
-        tag: "classico"
-    },
-    { 
-        nome: "Futurista", // remover
-        tag: "futurista"
-    },
+    // { 
+    //     nome: "Clássico", // remover
+    //     tag: "classico"
+    // },
+    // { 
+    //     nome: "Futurista", // remover
+    //     tag: "futurista"
+    // },
     { 
         nome: "Japonês",
         tag: "japones"
     },
-    { 
-        nome: "Chinês", // remover
-        tag: "chines"
-    },
-    { 
-        nome: "Russo", // remover
-        tag: "russo"
-    },
+    // { 
+    //     nome: "Chinês", // remover
+    //     tag: "chines"
+    // },
+    // { 
+    //     nome: "Russo", // remover
+    //     tag: "russo"
+    // },
     { 
         nome: "Deserto",
         tag: "deserto"
