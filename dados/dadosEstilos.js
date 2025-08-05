@@ -28,11 +28,11 @@ export const dadosEstilos = [
         tag: "fazenda"
     },
     { 
-        nome: "Clássico",
+        nome: "Clássico", // remover
         tag: "classico"
     },
     { 
-        nome: "Futurista",
+        nome: "Futurista", // remover
         tag: "futurista"
     },
     { 
@@ -40,11 +40,11 @@ export const dadosEstilos = [
         tag: "japones"
     },
     { 
-        nome: "Chinês",
+        nome: "Chinês", // remover
         tag: "chines"
     },
     { 
-        nome: "Russo",
+        nome: "Russo", // remover
         tag: "russo"
     },
     { 

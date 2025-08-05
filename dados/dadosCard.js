@@ -603,5 +603,104 @@ export const dadosCard = [
     urlCanal: "https://www.youtube.com/@Klifenn",
     tag: "japones"
 }
+,{
+    titulo: "Bangalô no Deserto em Minecraft",
+    imagem: "https://img.youtube.com/vi/u0AHEqXxfmw/hqdefault.jpg",
+    url: "https://www.youtube.com/watch?v=u0AHEqXxfmw&list=PLjdAfF_I1LknSSZxDTU5sV5QvZ9xE3YeV",
+    descricao: "Aprenda a construir uma casa segura e funcional no bioma deserto do Minecraft. Esse tutorial mostra como criar uma base protegida do sol, com reservatório de água, sombra estratégica e estrutura eficiente para sobrevivência. Ideal para explorar regiões áridas com charme e praticidade!",
+    nomeCanal: "Nuec",
+    urlCanal: "https://www.youtube.com/@Nuec",
+    tag: "deserto"
+}
+,{
+    titulo: "Santuário no Deserto com Biblioteca",
+    imagem: "https://img.youtube.com/vi/2BPV-vdtK30/hqdefault.jpg",
+    url: "https://www.youtube.com/watch?v=2BPV-vdtK30",
+    descricao: "Neste tutorial, você vai aprender a construir uma casa no bioma deserto do Minecraft, integrando uma área para encantar e armazenar livros junto à estrutura principal. Com design funcional, entrada ampla e uso de areia e arenito, é perfeita para sobrevivência com estilo em regiões áridas.",
+    nomeCanal: "Nanaroid",
+    urlCanal: "https://www.youtube.com/@nanaroid1",
+    tag: "deserto"
+},
+{
+    titulo: "Base de Sobrevivência no Deserto",
+    imagem: "https://img.youtube.com/vi/qjJyvR9caWY/hqdefault.jpg",
+    url: "https://www.youtube.com/watch?v=qjJyvR9caWY",
+    descricao: "Aprenda a construir uma casa de sobrevivência elegante no bioma deserto do Minecraft. Este tutorial ensina um design compacto com estrutura em arenito, janelas amplas para ventilação e detalhes modernos, ideal para equilibrar funcionalidade e estilo nas condições áridas.",
+    nomeCanal: "Julious",
+    urlCanal: "https://www.youtube.com/@JuliousMinecraft",
+    tag: "deserto"
+}
+,{
+    titulo: "Casa de Praia no Deserto para Sobrevivência",
+    imagem: "https://img.youtube.com/vi/DbO0YmrUxCY/hqdefault.jpg",
+    url: "https://www.youtube.com/watch?v=DbO0YmrUxCY",
+    descricao: "Neste tutorial, aprenda a construir uma casa de praia adaptada ao deserto no Minecraft. Com design elegante aproveitando areia e arenito, varanda sobre a água e integração com o bioma arenoso, essa build é ideal para quem busca funcionalidade e beleza em zonas áridas.",
+    nomeCanal: "Hey Natsu",
+    urlCanal: "https://www.youtube.com/@HeyNatsuOfc",
+    tag: "deserto"
+}
+,{
+    titulo: "Casa Desértica Suprema no Minecraft",
+    imagem: "https://img.youtube.com/vi/X_utol3VBSw/hqdefault.jpg",
+    url: "https://www.youtube.com/watch?v=X_utol3VBSw",
+    descricao: "Descubra como construir uma casa desértica extraordinária no Minecraft com este tutorial detalhado. Estrutura resistente ao calor, uso de arenito e sombra estratégica para enfrentar o sol escaldante do deserto. Ideal para quem quer uma base poderosa e elegante no bioma árido!",
+    nomeCanal: "Reimiho",
+    urlCanal: "https://www.youtube.com/@Reimiho",
+    tag: "deserto"
+}
+,{
+    titulo: "Fortaleza no Deserto",
+    imagem: "https://img.youtube.com/vi/Huwwgk3Rsm4/hqdefault.jpg",
+    url: "https://www.youtube.com/watch?v=Huwwgk3Rsm4",
+    descricao: "Descubra como construir uma fortaleza robusta e elegante no bioma deserto do Minecraft. Este tutorial ensina como erguer muros de arenito, torres de vigia e um pátio central protegido — ideal para explorar regiões áridas com segurança e estilo!",
+    nomeCanal: "Crafting Vibes",
+    urlCanal: "https://www.youtube.com/@CraftingVibes",
+    tag: "deserto"
+}
+,{
+    titulo: "Grande Castelo no Deserto",
+    imagem: "https://img.youtube.com/vi/rEyfLucPh_s/hqdefault.jpg",
+    url: "https://www.youtube.com/watch?v=rEyfLucPh_s",
+    descricao: "Aprenda a construir um imponente castelo no bioma deserto do Minecraft. Este tutorial ensina como usar arenito, terracota e prismarina para criar torres altas, muralhas resistentes e pátio central. Uma base perfeita para dominar áreas áridas com elegância e funcionalidade!",
+    nomeCanal: "BlueBits",
+    urlCanal: "https://www.youtube.com/@BlueBits_YT",
+    tag: "deserto"
+}
+,{
+    titulo: "Base Piramide de Sobrevivência no Deserto",
+    imagem: "https://img.youtube.com/vi/ePx_RN7qjSQ/hqdefault.jpg",
+    url: "https://www.youtube.com/watch?v=ePx_RN7qjSQ",
+    descricao: "Neste tutorial, aprenda a construir uma imponente base em formato de pirâmide no bioma deserto do Minecraft. Com design estratégico para defesa e simplicidade, usando arenito e prismarina para criar uma fortaleza solar resistente. Ideal para jogadores que querem máxima proteção e estilo nas regiões áridas!",
+    nomeCanal: "Lex The Builder",
+    urlCanal: "https://www.youtube.com/@LexTheBuilder",
+    tag: "deserto"
+}
+,{
+    titulo: "Refúgio de Sobrevivência no Deserto Minecraft",
+    imagem: "https://img.youtube.com/vi/NBUNN6eig94/hqdefault.jpg",
+    url: "https://www.youtube.com/watch?v=NBUNN6eig94",
+    descricao: "Neste tutorial, construa uma base compacta e segura no bioma desértico do Minecraft. Com uso eficiente de arenito, janelas estreitas para sombra e design funcional, essa build oferece proteção contra mobs e calor, ideal para sobrevivência prolongada nas areias.",
+    nomeCanal: "BlueBits",
+    urlCanal: "https://www.youtube.com/@BlueBits_YT",
+    tag: "deserto"
+}
+,{
+    titulo: "Temlo dob Deserto",
+    imagem: "https://img.youtube.com/vi/bEOrTLPaO9M/hqdefault.jpg",
+    url: "https://www.youtube.com/watch?v=bEOrTLPaO9M",
+    descricao: "Aprenda a construir um portal estilizado no estilo deserto no Minecraft com uma casinha ao lado para sobrevivência. Com uso de arenito, detalhes em prismarina e layout compacto, esse tutorial mostra como combinar funcionalidade e estética árida.",
+    nomeCanal: "BlueBits",
+    urlCanal: "https://www.youtube.com/@BlueBits_YT",
+    tag: "deserto"
+}
+,{
+    titulo: "Casa do Marceneiro no Deserto",
+    imagem: "https://img.youtube.com/vi/afe2D19c1UM/hqdefault.jpg",
+    url: "https://www.youtube.com/watch?v=afe2D19c1UM",
+    descricao: "Aprenda a construir uma casa no estilo da aldeia do comerciante no bioma deserto do Minecraft. Usando arenito, acácia, spruce e detalhes em quartzo, este tutorial mostra como criar uma estrutura charmosa e prática para vilarejos ou bases isoladas. Ideal para integrar construções típicas do deserto com estilo e funcionalidade!",
+    nomeCanal: "BlueBits",
+    urlCanal: "https://www.youtube.com/@BlueBits_YT",
+    tag: "deserto"
+}
 
 ];
