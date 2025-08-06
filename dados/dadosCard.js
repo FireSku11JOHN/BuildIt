@@ -702,5 +702,68 @@ export const dadosCard = [
     urlCanal: "https://www.youtube.com/@BlueBits_YT",
     tag: "deserto"
 }
+,{
+    titulo: "Casa na Árvore Simples",
+    imagem: "https://img.youtube.com/vi/U49dQAakmnk/hqdefault.jpg",
+    url: "https://www.youtube.com/watch?v=U49dQAakmnk",
+    descricao: "Neste tutorial fácil de seguir, você aprende a construir uma charmosa casa na árvore no Minecraft. Com escadas integradas, plataformas de madeira e uma varanda com vista, essa build une praticidade e estética natural — perfeita para uma base inicial em sobrevivência!",
+    nomeCanal: "Lex The Builder",
+    urlCanal: "https://www.youtube.com/@LexTheBuilder",
+    tag: "casa-na-arvore"
+}
+,{
+    titulo: "Base de Sobrevivência na Árvore",
+    imagem: "https://img.youtube.com/vi/fA4WYH9HxXA/hqdefault.jpg",
+    url: "https://www.youtube.com/watch?v=fA4WYH9HxXA",
+    descricao: "Neste tutorial super prático, você aprende a construir uma charmosa casa na árvore no Minecraft. Com plataforma em madeira, escada embutida e varanda panorâmica, essa construção é ideal para quem quer um refúgio rústico e funcional desde o início da sobrevivência.",
+    nomeCanal: "Stevler",
+    urlCanal: "https://www.youtube.com/@Stevler",
+    tag: "casa-na-arvore"
+}
+,{
+    titulo: "Casa na Árvore na Selva",
+    imagem: "https://img.youtube.com/vi/e4x5du87qGQ/hqdefault.jpg",
+    url: "https://www.youtube.com/watch?v=e4x5du87qGQ",
+    descricao: "Siga este tutorial estilo clássico para construir uma casa na árvore robusta no Minecraft. Com plataforma elevada, escadas de madeira e vistas panorâmicas, é ideal para uma base inicial segura e charmosa — perfeita para aventuras em modo sobrevivência.",
+    nomeCanal: "Mia Bloom",
+    urlCanal: "https://www.youtube.com/@MiaBloomyt",
+    tag: "casa-na-arvore"
+}
+,{
+    titulo: "Casa na Árvore Perfeita para Sobrevivência Minecraft",
+    imagem: "https://img.youtube.com/vi/Su4oD26o0yE/hqdefault.jpg",
+    url: "https://www.youtube.com/watch?v=Su4oD26o0yE",
+    descricao: "Aprenda a construir uma casa na árvore prática e resistente no Minecraft. Este tutorial mostra como montar plataformas de madeira, escadas integradas e um mirante arborizado para proteger e aproveitar a paisagem natural. Ideal para suas primeiras bases em modo sobrevivência!",
+    nomeCanal: "Goldrobin",
+    urlCanal: "https://www.youtube.com/@Goldrobin",
+    tag: "casa-na-arvore"
+}
+,{
+    titulo: "Casa na Árvore de Cerejeira no Minecraft",
+    imagem: "https://img.youtube.com/vi/Gvorjq8D_IE/hqdefault.jpg",
+    url: "https://www.youtube.com/watch?v=Gvorjq8D_IE",
+    descricao: "Neste tutorial inspirado em cerejeiras, aprenda a construir uma casa na árvore elegante no bioma Cherry Grove. Com plataformas entre galhos floridos, varanda suspensa e muito charme rosa e verde, é ideal para quem quer um refúgio natural e encantador em meio às alturas.",
+    nomeCanal: "Blockical",
+    urlCanal: "https://www.youtube.com/@blockical",
+    tag: "casa-na-arvore"
+}
+,{
+    titulo: "Casa na Árvore na Selva no Minecraft",
+    imagem: "https://img.youtube.com/vi/_i0FXTaRU5Q/hqdefault.jpg",
+    url: "https://www.youtube.com/watch?v=_i0FXTaRU5Q",
+    descricao: "Aprenda passo a passo a construir uma encantadora casa na árvore no bioma selva do Minecraft. Com plataforma elevada entre troncos, varanda arborizada e espaço funcional para sobrevivência. Perfeita para quem quer refúgio rústico, seguro e integrado à natureza!",
+    nomeCanal: "Mr Mirror",
+    urlCanal: "https://www.youtube.com/@MrMirror",
+    tag: "casa-na-arvore"
+}
+,{
+    titulo: "Casa na Árvore na Selva Simples",
+    imagem: "https://img.youtube.com/vi/DyrCp4O_npA/hqdefault.jpg",
+    url: "https://www.youtube.com/watch?v=DyrCp4O_npA",
+    descricao: "Aprenda passo a passo a construir uma casa na árvore na selva do Minecraft com este tutorial por Lex The Builder. Com plataforma elevada entre troncos, escadas integradas e bastante folhagem natural, essa build é ideal para quem busca um refúgio seguro e estiloso em meio à vegetação exuberante!",
+    nomeCanal: "Lex The Builder",
+    urlCanal: "https://www.youtube.com/@LexTheBuilder",
+    tag: "casa-na-arvore"
+}
 
 ];
