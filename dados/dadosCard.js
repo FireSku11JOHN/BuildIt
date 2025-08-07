@@ -810,5 +810,32 @@ export const dadosCard = [
     urlCanal: "https://www.youtube.com/@BigTonyMC",
     tag: "base-subterranea"
 }
+,{
+    titulo: "Casa Estilosa no The End",
+    imagem: "https://img.youtube.com/vi/6f_WSB-Shtw/hqdefault.jpg",
+    url: "https://www.youtube.com/watch?v=6f_WSB-Shtw",
+    descricao: "Quer construir um refúgio elegante em plena dimensão do Fim? Esse tutorial ensina a montar uma casa simples, mas com um visual muito bonito e acolhedor, perfeita para sobreviver com estilo no mundo sombrio do The End. Ideal pra quem quer ir além das bases improvisadas e marcar presença com personalidade!",
+    nomeCanal: "Enchanted.Architecture",
+    urlCanal: "https://www.youtube.com/@EnchantedArchitecture",
+    tag: "the-end"
+}
+,{
+    titulo: "Base Definitiva no The End para Sobrevivência",
+    imagem: "https://img.youtube.com/vi/gp6CURkKkVc/hqdefault.jpg",
+    url: "https://www.youtube.com/watch?v=gp6CURkKkVc",
+    descricao: "Neste tutorial, você aprende a construir a base definitiva na dimensão do The End no Minecraft. Com design pensado para exploração segura das ilhas finais, materiais resistentes e visual adaptado ao ambiente escuro, é ideal para dominar esse mundo com praticidade e estilo!",
+    nomeCanal: "Lex The Builder",
+    urlCanal: "https://www.youtube.com/@LexTheBuilder",
+    tag: "the-end"
+}
+,{
+    titulo: "Casa Minimalista no The End",
+    imagem: "https://img.youtube.com/vi/vFsnSTi_HjQ/hqdefault.jpg",
+    url: "https://www.youtube.com/watch?v=vFsnSTi_HjQ",
+    descricao: "Este tutorial ensina como construir uma casa simples e bonita no mundo do The End. Usando blocos icônicos da dimensão, você cria um refúgio acolhedor e elegante entre as ilhas finais — perfeito para quem quer um ponto de suporte visualmente agradável em meio ao vazio celestial!",
+    nomeCanal: "Otama The World",
+    urlCanal: "https://www.youtube.com/@OtamaTheWorld",
+    tag: "the-end"
+}
 
 ];
