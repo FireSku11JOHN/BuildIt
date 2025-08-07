@@ -837,5 +837,77 @@ export const dadosCard = [
     urlCanal: "https://www.youtube.com/@OtamaTheWorld",
     tag: "the-end"
 }
+,{
+    titulo: "Casa no Nether",
+    imagem: "https://img.youtube.com/vi/tjRWUOnzntE/hqdefault.jpg",
+    url: "https://www.youtube.com/watch?v=tjRWUOnzntE",
+    descricao: "Neste tutorial, aprenda a construir uma casa simples e bonita no Nether do Minecraft. Usando materiais como basalto, madeira torcida, pedra negra e tijolos do Nether, você criará um refúgio seguro e estiloso nesse ambiente desafiador.",
+    nomeCanal: "BlueBits",
+    urlCanal: "https://www.youtube.com/@BlueBits_YT",
+    tag: "nether"
+}
+,{
+    titulo: "Base Fantasia Carmesim Nether",
+    imagem: "https://img.youtube.com/vi/PHHbN1rn2eU/hqdefault.jpg",
+    url: "https://www.youtube.com/watch?v=PHHbN1rn2eU",
+    descricao: "Neste tutorial, aprenda a construir uma base de fantasia no estilo Carmesim no Nether do Minecraft. Usando materiais como basalto, tijolos do Nether e madeira torcida, você criará um refúgio seguro e estiloso nesse ambiente desafiador.",
+    nomeCanal: "Reimiho",
+    urlCanal: "https://www.youtube.com/@Reimiho",
+    tag: "nether"
+}
+,{
+    titulo: "Castelo Subterrâneo no Nether – Tutorial Completo",
+    imagem: "https://img.youtube.com/vi/PmbVW0k0AOo/hqdefault.jpg",
+    url: "https://www.youtube.com/watch?v=PmbVW0k0AOo",
+    descricao: "Neste tutorial, aprenda a construir um castelo subterrâneo completo no Nether do Minecraft. O vídeo ensina a criar uma base segura e estilosa, com fazendas de cogumelos, salas de encantamentos e sistemas de defesa, utilizando materiais como basalto, tijolos do Nether e madeira torcida.",
+    nomeCanal: "Morphine",
+    urlCanal: "https://www.youtube.com/@Morphine.shorts",
+    tag: "nether"
+}
+,{
+    titulo: "Base Inicial Estilo Hobbit no Nether",
+    imagem: "https://img.youtube.com/vi/PpjE3Q550k0/hqdefault.jpg",
+    url: "https://www.youtube.com/watch?v=PpjE3Q550k0",
+    descricao: "Aprenda a criar uma base inicial aconchegante no Nether com este tutorial inspirado em uma toca de hobbit. Combina conforto e segurança usando materiais típicos como madeira torcida, basalto e pedra negra — perfeito para começar a sobreviver com charme nesse bioma hostil!",
+    nomeCanal: "NotNotBrock",
+    urlCanal: "https://www.youtube.com/@NotNotBrock",
+    tag: "nether"
+}
+,{
+    titulo: "Casa Fantasia No Nether",
+    imagem: "https://img.youtube.com/vi/rSZAztn2rGQ/hqdefault.jpg",
+    url: "https://www.youtube.com/watch?v=rSZAztn2rGQ",
+    descricao: "Aprenda a construir a base definitiva no Nether com este tutorial fácil de seguir, ideal para jogadores no modo sobrevivência que querem prosperar no ambiente hostil. Estrutura funcional, segura e totalmente adaptada ao estilo sombrio do Nether!",
+    nomeCanal: "AvidPixel",
+    urlCanal: "https://www.youtube.com/@AvidPixel",
+    tag: "nether"
+}
+,{
+    titulo: "Casa de Sobrevivência no Nether Simples",
+    imagem: "https://img.youtube.com/vi/xY3CbTq0wSE/hqdefault.jpg",
+    url: "https://www.youtube.com/watch?v=xY3CbTq0wSE",
+    descricao: "Aprenda a construir uma casa simples e resistente no Nether com este tutorial prático. Usando materiais como basalto, pedra negra e madeira torcida, você vai montar um refúgio seguro para enfrentar o ambiente hostil com estilo e conforto!",
+    nomeCanal: "Mr Mirror",
+    urlCanal: "https://www.youtube.com/@MrMirror",
+    tag: "nether"
+}
+,{
+    titulo: "Mega Base Suprema no Nether",
+    imagem: "https://img.youtube.com/vi/S5mwmfgbTUU/hqdefault.jpg",
+    url: "https://www.youtube.com/watch?v=S5mwmfgbTUU",
+    descricao: "Neste tutorial, você vai descobrir como construir uma base suprema no Nether do Minecraft — resistente, funcional e estilosa. Com escudos contra ghasts, compartimentos seguros e design adaptado ao clima infernal, sua sobrevivência nunca mais será a mesma!",
+    nomeCanal: "Reimiho",
+    urlCanal: "https://www.youtube.com/@Reimiho",
+    tag: "nether"
+}
+,{
+    titulo: "Fortaleza na Lava do Nether",
+    imagem: "https://img.youtube.com/vi/JgYZRiCwUb8/hqdefault.jpg",
+    url: "https://www.youtube.com/watch?v=JgYZRiCwUb8",
+    descricao: "Neste tutorial, você aprende a construir uma base definitiva no Nether para o Minecraft 1.16. Perfeita para sobrevivência completa, ela reúne espaço para crafting, armazenamento, segurança contra Ghasts e estilo robusto com materiais infernais.",
+    nomeCanal: "ItsMarloe",
+    urlCanal: "https://www.youtube.com/@ItsMarloe",
+    tag: "nether"
+}
 
 ];
