@@ -765,5 +765,50 @@ export const dadosCard = [
     urlCanal: "https://www.youtube.com/@LexTheBuilder",
     tag: "casa-na-arvore"
 }
+,{
+    titulo: "Base Subterrânea Estratégica",
+    imagem: "https://img.youtube.com/vi/dU1IHZuZI6Y/hqdefault.jpg",
+    url: "https://www.youtube.com/watch?v=dU1IHZuZI6Y",
+    descricao: "Aprenda a construir uma base subterrânea eficiente no Minecraft com este tutorial. Você verá como criar entradas ocultas, organizar salas funcionais (como armazenamento e encantamento) e maximizar sua segurança underground. Ideal para quem quer uma fortaleza escondida com funcionalidade total!",
+    nomeCanal: "Goldrobin",
+    urlCanal: "https://www.youtube.com/@Goldrobin",
+    tag: "base-subterranea"
+}
+,{
+    titulo: "Base Subterrânea Secreta de Dois Andares",
+    imagem: "https://img.youtube.com/vi/SbPh6DlQ6hE/hqdefault.jpg",
+    url: "https://www.youtube.com/watch?v=SbPh6DlQ6hE",
+    descricao: "Neste tutorial, aprenda a construir uma base subterrânea secreta de dois andares no Minecraft. Com entradas escondidas, divisões estratégicas e segurança reforçada, essa build é ideal para manter seus itens e operações fora da vista de qualquer intruso — perfeita para sobreviver com estilo!",
+    nomeCanal: "Gorillo",
+    urlCanal: "https://www.youtube.com/@Gorillo",
+    tag: "base-subterranea"
+}
+,{
+    titulo: "Base Subterrânea para Armazenamento",
+    imagem: "https://img.youtube.com/vi/25YhvOwLXTg/hqdefault.jpg",
+    url: "https://www.youtube.com/watch?v=25YhvOwLXTg",
+    descricao: "Neste tutorial, aprenda a construir uma base subterrânea secreta para armazenamento no Minecraft. Com entradas escondidas, divisões estratégicas e segurança reforçada, essa build é ideal para manter seus itens e operações fora da vista de qualquer intruso — perfeita para sobreviver com estilo!",
+    nomeCanal: "Gorillo",
+    urlCanal: "https://www.youtube.com/@Gorillo",
+    tag: "base-subterranea"
+}
+,{
+    titulo: "Base Subterrânea Com Farms",
+    imagem: "https://img.youtube.com/vi/RsLR0Nm8gwg/hqdefault.jpg",
+    url: "https://www.youtube.com/watch?v=RsLR0Nm8gwg",
+    descricao: "Descubra como montar uma base subterrânea secreta e completa no Minecraft. Este tutorial ensina a criar uma fortaleza escondida no subsolo, com salas funcionais, sistemas de segurança e entrada camuflada — ideal para sobreviver com total discrição e eficiência!",
+    nomeCanal: "Gorillo",
+    urlCanal: "https://www.youtube.com/@Gorillo",
+    tag: "base-subterranea"
+}
+,{
+    titulo: "Bunker Subterrâneo Compacto no Minecraft",
+    imagem: "https://img.youtube.com/vi/BYybE6SKvsM/hqdefault.jpg",
+    url: "https://www.youtube.com/watch?v=BYybE6SKvsM",
+    descricao: "Aprenda a construir um bunker subterrâneo compacto e funcional no Minecraft. Este tutorial ensina a escavar uma base discreta, montar salas essenciais como armazenamento e craft, e otimizar espaço com simplicidade e segurança. Ideal para quem quer uma base oculta eficiente!",
+    nomeCanal: "BigTonyMC",
+    urlCanal: "https://www.youtube.com/@BigTonyMC",
+    tag: "base-subterranea"
+}
 
 ];
