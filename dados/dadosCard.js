@@ -909,5 +909,51 @@ export const dadosCard = [
     urlCanal: "https://www.youtube.com/@ItsMarloe",
     tag: "nether"
 }
+,{
+    titulo: "Base Subaquática",
+    imagem: "https://img.youtube.com/vi/w9qLPqdqPxk/hqdefault.jpg",
+    url: "https://www.youtube.com/watch?v=w9qLPqdqPxk",
+    descricao: "Aprenda a construir uma casa subaquática completa no Minecraft com este tutorial passo a passo. Com visão panorâmica, design elegante e estrutura estável debaixo d’água, essa base é perfeita para combinar estilo com funcionalidade no mundo oceânico.",
+    nomeCanal: "MarchiWORX",
+    urlCanal: "https://www.youtube.com/@MarchiWORX",
+    tag: "subaquatico"
+}
+,{
+    titulo: "Base Subaquática Avançada",
+    imagem: "https://img.youtube.com/vi/oB8SvIMcaEM/hqdefault.jpg",
+    url: "https://www.youtube.com/watch?v=oB8SvIMcaEM",
+    descricao: "Descubra como montar uma base subaquática secreta no Minecraft com este tutorial claro e objetivo. Com design prático, entrada oculta e uso inteligente de vidro e quartzo para visibilidade, você terá um refúgio funcional e elegante debaixo dʼágua!",
+    nomeCanal: "SheepGG",
+    urlCanal: "https://www.youtube.com/@SheepGG",
+    tag: "subaquatico"
+}
+,{
+    titulo: "Casa Subaquática Moderna",
+    imagem: "https://img.youtube.com/vi/QK4QL1vWXwk/hqdefault.jpg",
+    url: "https://www.youtube.com/watch?v=QK4QL1vWXwk",
+    descricao: "Descubra como construir uma base subaquática icônica no Minecraft com este tutorial inspirador. O vídeo mostra passo a passo a criação de uma estrutura elegante debaixo d’água, com visão panorâmica e design integrado ao ambiente marinho — ideal para quem quer unir estética e funcionalidade nas profundezas!",
+    nomeCanal: "Goldrobin",
+    urlCanal: "https://www.youtube.com/@Goldrobin",
+    tag: "subaquatico"
+}
+,{
+    titulo: "Base Subaquática Sobrevivência",
+    imagem: "https://img.youtube.com/vi/KGQ3qoZcmO8/hqdefault.jpg",
+    url: "https://www.youtube.com/watch?v=KGQ3qoZcmO8",
+    descricao: "Aprenda neste tutorial como construir uma base subaquática épica no Minecraft. Com design refinado, estrutura resistente e integração elegante com o ambiente oceânico, essa build te deixa protegido e com estilo debaixo d’água.",
+    nomeCanal: "Lex The Builder",
+    urlCanal: "https://www.youtube.com/@LexTheBuilder",
+    tag: "subaquatico"
+}
+,{
+    titulo: "Casa na Montanha Submersa Moderna",
+    imagem: "https://img.youtube.com/vi/MF95zZU--tY/hqdefault.jpg",
+    url: "https://www.youtube.com/watch?v=MF95zZU--tY",
+    descricao: "Aprenda a construir uma casa moderna construída como uma montanha, mas debaixo d’água! Esse tutorial combina uma estética elegante com decoração interna requintada—como aquário integrado e carpete estiloso—criando um refúgio subaquático acolhedor e sofisticado.",
+    nomeCanal: "Beenoos",
+    urlCanal: "https://www.youtube.com/@beenoos4485",
+    tag: "subaquatico"
+}
+
 
 ];
