@@ -685,7 +685,7 @@ export const dadosCard = [
     tag: "deserto"
 }
 ,{
-    titulo: "Temlo dob Deserto",
+    titulo: "Templo do Deserto",
     imagem: "https://img.youtube.com/vi/bEOrTLPaO9M/hqdefault.jpg",
     url: "https://www.youtube.com/watch?v=bEOrTLPaO9M",
     descricao: "Aprenda a construir um portal estilizado no estilo deserto no Minecraft com uma casinha ao lado para sobrevivência. Com uso de arenito, detalhes em prismarina e layout compacto, esse tutorial mostra como combinar funcionalidade e estética árida.",
@@ -702,6 +702,7 @@ export const dadosCard = [
     urlCanal: "https://www.youtube.com/@BlueBits_YT",
     tag: "deserto"
 }
+// casa-na-arvore
 ,{
     titulo: "Casa na Árvore Simples",
     imagem: "https://img.youtube.com/vi/U49dQAakmnk/hqdefault.jpg",

@@ -199,3 +199,19 @@ box-shadow: 0 0px 0 0 rgb(0 0 0 / 15%);
 	-webkit-tap-highlight-color: transparent; /* importante para mobile */
 }
 
+.botao-ver-todos-wrapper{
+	display: flex;
+    width: 85%;
+    max-width: 700px;
+	justify-content: center;
+    border-top: 1px solid #000;
+	padding-top: 24px;
+	margin-top: 8px;
+}
+
+@media (min-width: 1024px) {
+    .botao-ver-todos-wrapper{
+        width: 90%;
+        max-width: 1000px;
+    }
+}
