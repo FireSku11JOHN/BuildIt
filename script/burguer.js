@@ -27,3 +27,10 @@ document.addEventListener("click", function (event) {
     }, 10);
   }
 });
+
+window.addEventListener("load", function() {
+    if (menuToggle.checked && !menuLateral.classList.contains("ativo")) {
+        menuToggle.checked = false;
+    } 
+});
+
