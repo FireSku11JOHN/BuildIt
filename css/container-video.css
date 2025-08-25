@@ -12,9 +12,10 @@
 #video-card{
     /* padding-top: 35px; */
     margin-top: 35px;
-    width: 300px;
+    width: 90vw;
     aspect-ratio: 16/9;
     box-shadow: rgba(0, 0, 0, 0.3) 5px 5px 15px;
+    border-radius: 10px;
 }
 
 .info-video{
@@ -64,7 +65,7 @@
 
 @media (min-width: 768px) {
     #video-card {
-        width: 500px;
+        width: 80vw;
         /* height: auto; */
         aspect-ratio: 16/9;
         max-width: 800px;
