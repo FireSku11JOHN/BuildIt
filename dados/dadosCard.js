@@ -82,6 +82,16 @@ export const dadosCard = [
 
     // Medieval
     {
+        titulo: "Casa de Encantamentos Medieval",
+        imagem: "https://img.youtube.com/vi/XKbrxzLxsdk/hqdefault.jpg",
+        url: "https://www.youtube.com/watch?v=XKbrxzLxsdk",
+        descricao: "Neste tutorial simples e funcional, você vai aprender a construir uma casa de encantamentos no Minecraft, com espaço otimizado para mesa de encantamento, estantes e decoração prática. Ideal para adicionar um toque mágico à sua base sem complicação!",
+        nomeCanal: "FireSkull Builder",
+        urlCanal: "@FireSkullBuilder",
+        tag: "medieval"
+    }
+    ,
+    {
         titulo: "Armazém Medieval",
         imagem: "https://img.youtube.com/vi/uU4mFrJrsQQ/hqdefault.jpg",
         url: "https://www.youtube.com/watch?v=uU4mFrJrsQQ",
