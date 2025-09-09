@@ -2,7 +2,9 @@ import { dadosEstilos } from '../dados/dadosEstilos.js';
 import { criarSecoesEstilo } from './layout.js';
 import { inicializarCards } from './criarCards.js';
 import { observarRedimensionamentoTela } from './resize.js';
+
 import { abrirOpcoesAvatar } from './cabecalho/btnAvatar.js';
+import { login } from './login.js';
 
 const containerEstilo = document.getElementById('container-estilos');
 const containerBotao = document.getElementById('botao-ver-todos-container');
@@ -55,3 +57,4 @@ inicializarCards();
 observarRedimensionamentoTela();
 
 abrirOpcoesAvatar();
+login();
