@@ -1,3 +1,6 @@
+import dotenv from "dotenv";
+dotenv.config();
+
 import express from "express";
 import cors from "cors";
 import { createClient } from "@supabase/supabase-js";
@@ -9,8 +12,8 @@ app.use(express.json());
 
 // 🔑 Conexão com o Supabase
 const supabase = createClient(
-    "https://ocuyxmstkwuxesanifyy.supabase.co",
-    "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Im9jdXl4bXN0a3d1eGVzYW5pZnl5Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NTY3MzY1NDYsImV4cCI6MjA3MjMxMjU0Nn0.BMkuTU54QQU806mRFw-bSQjYxvf1Yr8xQpkQ-itmsPE"
+    process.env.SUPABASE_URL,
+    process.env.SUPABASE_ANON_KEY
 );
 
 // 📌 Rota de teste

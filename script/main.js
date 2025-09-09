@@ -2,6 +2,7 @@ import { dadosEstilos } from '../dados/dadosEstilos.js';
 import { criarSecoesEstilo } from './layout.js';
 import { inicializarCards } from './criarCards.js';
 import { observarRedimensionamentoTela } from './resize.js';
+import { abrirOpcoesAvatar } from './cabecalho/btnAvatar.js';
 
 const containerEstilo = document.getElementById('container-estilos');
 const containerBotao = document.getElementById('botao-ver-todos-container');
@@ -52,3 +53,5 @@ containerBotao.appendChild(botaoVerMenos);
 criarSecoesEstilo(dadosEstilos.slice(0, 8));
 inicializarCards();
 observarRedimensionamentoTela();
+
+abrirOpcoesAvatar();

@@ -45,6 +45,14 @@
     display: none;
 }
 
+#container-opcoes {
+    display: flex;
+    align-items: center;
+    gap: 14px
+}
+
+
+
 @media (min-width: 768px) {
     .botoes-item{
         font-size: var(--fonte-size-Normal);
@@ -53,11 +61,21 @@
     .btn-estilo {
         display: block;
     }
+
+    #btn-avatar{
+        width: 34px;
+        height: 34px;
+    }
 }
 
 @media (min-width: 1024px) {
     .cabecalho {
         height: 86px;
+    }
+
+    #btn-avatar{
+        width: 40px;
+        height: 40px;
     }
 }
 

@@ -37,7 +37,7 @@
 .div-itens > a {
     height: auto;
     margin-bottom: 1rem;
-    border-bottom: 1px solid var(--preto);
+    border-bottom: 1px solid var(--cinza-claro);
     color: var(--preto);
     width: 100%;
     font-family: var(--fonte-Kanit);

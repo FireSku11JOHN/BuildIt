@@ -1,0 +1,109 @@
+
+#modal-perfil {
+    color: black;
+    font-family: var(--fonte-Kanit);
+    font-size: var(--fonte-size-Media);
+    display: none;
+    flex-direction: column;
+    position: fixed;
+    width: 100vw;
+    height: calc(100dvh - 65px);
+    top: 65px;
+    background-color: white;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.432);
+    /* padding: 10px; */
+    z-index: 1000;
+}
+
+.container-modal-perfil{
+    display: flex;
+    flex-direction: column;
+    margin: 0 16px
+}
+
+.cabecalho-perfil{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 1rem 0 0.3rem 0;
+}
+
+.cabecalho-perfil a{
+    flex-grow: 2;
+}
+
+.cabecalho-perfil h2{
+    font-family: var(--fonte-Karla);
+    font-size: var(--fonte-size-Grande);
+    font-weight: 600;
+    flex-grow: 2;
+}
+
+.info-usuario{
+    display: flex;
+    gap: 8px;
+    padding: 12px 0 8px 0;
+    margin-bottom: 16px;
+    border-bottom: 1px solid var(--cinza);
+    
+}
+
+.container-avatar{
+    width: 40px;
+    height: 40px;
+}
+
+#btn-avatar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+    width: 25px;
+    height: 25px;
+    border: 1px solid var(--laranja);
+    overflow: hidden;
+}
+#avatar {
+    border-radius: 100%;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.dados-usuario {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 4px;
+}
+
+.opcoes-perfil {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.opcoes-perfil > *{
+    border-bottom: 1px solid var(--cinza-claro);
+}
+.opcoes-perfil > a{
+    padding-bottom: 2px;
+}
+
+#contador-favoritos{
+    font-size: var(--fonte-size-Pequena);
+    background-color: rgba(128, 128, 128, 0.686);
+    /* width: 20px;
+    height: 10px; */
+    padding: 2px 2px;
+    border-radius: 100%;
+}
+
+#btn-entrar {
+    background-color: var(--laranja);
+    font-family: var(--fonte-Karla);
+    font-size: var(--fonte-size-Pequena);
+    font-weight: 500;
+    padding: 2px;
+    border-radius: 6px;
+}

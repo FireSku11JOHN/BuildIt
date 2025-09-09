@@ -143,6 +143,7 @@
     }
 
     .container-estilos-main {
+        min-height: calc(100vh - 107px - 30px);
         padding-top: 50px;
     }
 
