@@ -3,6 +3,7 @@ import { criarSecoesEstilo } from './layout.js';
 import { inicializarCards } from './criarCards.js';
 import { observarRedimensionamentoTela } from './resize.js';
 
+import { criarCabecalho } from "./elementos/criarCabecalho.js";
 import { abrirOpcoesAvatar } from './cabecalho/btnAvatar.js';
 import { login } from './login.js';
 
@@ -56,5 +57,7 @@ criarSecoesEstilo(dadosEstilos.slice(0, 8));
 inicializarCards();
 observarRedimensionamentoTela();
 
+// document.addEventListener("DOMContentLoaded", criarCabecalho);
 abrirOpcoesAvatar();
 login();
+

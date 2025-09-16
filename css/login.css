@@ -46,7 +46,7 @@
 
 .title {
     font-family: var(--fonte-Karla);
-    margin-top: 0.5rem;
+    margin-top: 1.5rem;
     text-align: center;
     font-size: 1.5rem;
     line-height: 2rem;
@@ -106,7 +106,7 @@
     font-size: 14px;
 }
 
-.forgot a:hover, .signup a:hover {
+.forgot a:hover {
     text-decoration: underline rgb(255, 255, 255);
 }
 
@@ -141,4 +141,8 @@
     font-size: 0.75rem;
     line-height: 1rem;
     color: rgb(255, 255, 255);
+}
+
+.signup a:hover {
+    text-decoration: underline aqua;
 }

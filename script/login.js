@@ -1,6 +1,7 @@
 export function login() {
-    const btnEntrar = document.getElementById('btnEntrar');
-    btnEntrar.addEventListener('click', () => {
-        window.location.href = '../pages/login.html'; // Redireciona para a página de login
+    document.addEventListener('click', (event) => {
+        if (event.target && event.target.id === 'btnEntrar') {
+            window.location.href = '../pages/login.html';
+        }
     });
 }
