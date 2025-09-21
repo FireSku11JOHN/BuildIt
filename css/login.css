@@ -51,22 +51,23 @@
 }
 
 .input-group {
+    position: relative; 
     font-family: var(--fonte-Karla);
-    /* width: auto; */
-    margin-top: 0.25rem;
+    margin-top: 1.25rem;
     font-size: 0.875rem;
     line-height: 1.25rem;
-
-    /* position: relative; */
 }
 
 .input-group label {
     position: absolute;
-    color: rgb(255, 255, 255);
-    margin-bottom: 4px;
-    transform: translateY(70%);
-    left: 60px;
-    transition: all 0.3s ease;
+    top: 85%;
+    left: 0.5rem;
+    transform: translateY(-110%);
+    
+    color: rgb(156, 163, 175);
+    padding: 0 0.25rem;
+    transition: all 0.2s ease-out;
+    pointer-events: none; 
 }
 
 .input-group input {
@@ -77,30 +78,36 @@
     background-color: rgba(17, 24, 39, 1);
     padding: 0.75rem 0.5rem;
     color: rgb(255, 255, 255);
-    /* position: relative; */
-    /* z-index: 1; */
 }
 .input-group input:focus {
     border-color: var(--laranja);
 }
 
-.input-group input:focus ~ label{
-    transform: translateY(-51%) translateX(-10px) scale(0.8);
-    background-color: var(--azul-escuro-bg);
-    font-size: 18px;
-    padding: 0px 5px;
-    border: none;
+.input-group input:focus ~ label,
+.input-group input:not(:placeholder-shown) ~ label {
+    top: 0;
+    transform: translateY(-50%) scale(0.9);
+    background-color: rgba(17, 24, 39, 1); 
+    color: var(--laranja);
+    font-weight: 700;
 }
+
 .forgot {
+    width: 100%; 
+    padding-right: 0.5rem; 
+    box-sizing: border-box;
     display: flex;
     justify-content: flex-end;
     font-size: 0.75rem;
     line-height: 1rem;
-    color: rgba(156, 163, 175,1);
-    margin: 8px 0 14px 0;
+    color: rgba(156, 163, 175, 1);
+    font-family: var(--fonte-Karla);
+    
+    /* margin-top: 2px; */
+    /* margin-bottom: 20px; */
 }
 
-.forgot a,.signup a {
+.forgot a, .signup a {
     color: rgba(243, 244, 246, 1);
     text-decoration: none;
     font-size: 14px;
@@ -147,3 +154,13 @@
     text-decoration: underline aqua;
 }
 
+/* --- Correção do Autopreenchimento do Navegador --- */
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+    -webkit-text-fill-color: #fff; 
+    box-shadow: 0 0 0px 1000px rgba(17, 24, 39, 1) inset;
+    transition: background-color 5000s ease-in-out 0s;
+    font-family: var(--fonte-Karla);
+}
