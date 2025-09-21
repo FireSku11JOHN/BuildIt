@@ -26,9 +26,7 @@ export function criarCabecalho() {
         </div>   
 
         <div id="container-opcoes">
-            <div id="btn-entrar">
-            <button id="btnEntrar">Entrar</button>
-            </div>
+
 
             <label class="burger" for="menuToggle">
             <input type="checkbox" id="menuToggle">
@@ -42,3 +40,8 @@ export function criarCabecalho() {
 
     document.body.insertAdjacentHTML("afterbegin", headerHTML);                                             
 }
+
+
+            // <div id="btn-entrar">
+            // <button id="btnEntrar">Entrar</button>
+            // </div>
