@@ -3,3 +3,4 @@ export function obterLimitePorLargura(largura) {
     if (largura >= 648) return 8;
     return 6;
 }
+

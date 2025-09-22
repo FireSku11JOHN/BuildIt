@@ -92,6 +92,19 @@
     font-weight: 700;
 }
 
+.toggle-password {
+    position: absolute;
+    top: 60%;
+    right: 0.75rem;
+    transform: translateY(-65%);
+    cursor: pointer;
+    color: rgba(156, 163, 175, 1);
+}
+
+.toggle-password i.icon-visivel {
+    color: #FF7409;
+}
+
 .forgot {
     width: 100%; 
     padding-right: 0.5rem; 
@@ -164,3 +177,4 @@ input:-webkit-autofill:active {
     transition: background-color 5000s ease-in-out 0s;
     font-family: var(--fonte-Karla);
 }
+

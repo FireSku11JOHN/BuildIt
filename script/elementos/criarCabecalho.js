@@ -27,7 +27,7 @@ export function criarCabecalho() {
 
         <div id="container-opcoes">
             <div id="btn-entrar">
-            <button id="btnEntrar">Entrar</button>
+                <button src id="btnEntrar">Entrar</button>
             </div>
 
             <label class="burger" for="menuToggle">

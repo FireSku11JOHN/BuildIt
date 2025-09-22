@@ -4,6 +4,8 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
         <link rel="stylesheet" href="/css/main.css">
         <link rel="stylesheet" href="/css/login.css">
 
@@ -28,9 +30,10 @@
                             <input type="password" name="password" id="password" placeholder="">
                             <label for="password">Senha</label>
                         </div>
-                            <button type="button" class="toggle-password" aria-label="Mostrar senha">
-                                👁️ 
-                            </button>
+                        <button id="toggle-password" class="toggle-password" type="button" aria-label="Mostrar senha">
+                            <i class="fa-solid fa-eye-slash">
+
+                            </i></button>
                     </div>
                     <div class="forgot">
                         <a rel="noopener noreferrer" href="#">Esqueceu a senha?</a>
@@ -45,6 +48,9 @@
                 <p class="signup">Não possui uma conta?
                     <a id="btnCadastrar" rel="noopener noreferrer" href="cadastrar.html"style="color: aqua;">Criar conta</a>
                 </p>
+
+                <script type="module" src="../script/utils.js"></script>
+                <script type="module" src="../script/login.js"></script>
             </div>
         </main>
     </body>
