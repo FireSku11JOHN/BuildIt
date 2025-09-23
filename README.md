@@ -37,6 +37,15 @@ O objetivo do BuildIt é ser um guia prático de construções no Minecraft, ao 
 
 ---
 
+##Imagens 
+
+<img width="1315" height="908" alt="image" src="https://github.com/user-attachments/assets/4e68e003-99d3-4895-8afb-371cf1a9a8c6" />
+<img width="1313" height="907" alt="image" src="https://github.com/user-attachments/assets/12ee158c-2168-4a87-bba8-f67ee722e822" />
+
+
+
+---
+
 Link para o site: https://build-it-kappa.vercel.app/
 
 ---
