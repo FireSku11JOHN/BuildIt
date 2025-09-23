@@ -37,12 +37,22 @@ togglePassword?.addEventListener('click', () => {
     }
 });
 
-function validaEmail() {
+function validarEmail(email) {
     const emailInput = document.getElementById('email');
-    const email = emailInput.value;
-    // const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+    const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+    const pInvalido = document.querySelector('.invalido');
 
-    emailInput.addEventListener('input', () => {
-        console.log('Digitando no campo de email');
-    });
+    if (emailInput.value !== '' && !emailRegex.test(emailInput.value)) {
+        pInvalido.style.display = 'block';
+    }
 }
+
+const btnEntrar = document.getElementById('sign');
+function fazerLogin(event) {
+    event.preventDefault();
+    const emailInput = document.getElementById('email');
+
+}
+
+validarEmail();
+
