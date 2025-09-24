@@ -5,7 +5,7 @@ import { observarRedimensionamentoTela } from './resize.js';
 
 import { criarCabecalho } from "./elementos/criarCabecalho.js";
 import { abrirOpcoesAvatar } from './cabecalho/btnAvatar.js';
-import { login } from './login.js';
+// import { login } from './login.js';
 
 const containerEstilo = document.getElementById('container-estilos');
 const containerBotao = document.getElementById('botao-ver-todos-container');
@@ -59,5 +59,5 @@ observarRedimensionamentoTela();
 
 // document.addEventListener("DOMContentLoaded", criarCabecalho);
 abrirOpcoesAvatar();
-login();
+// login();
 
