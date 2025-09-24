@@ -41,7 +41,7 @@ export function criarCabecalho() {
     document.body.insertAdjacentHTML("afterbegin", headerHTML);                                             
 }
 
-
+//Botão Entrar
             // <div id="btn-entrar">
             // <button id="btnEntrar">Entrar</button>
             // </div>
